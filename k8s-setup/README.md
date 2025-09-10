@@ -1,0 +1,1 @@
+# Installing K8s on Ubuntu 24.04
