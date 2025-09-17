@@ -1,3 +1,4 @@
+```
 hand32@node0:~/ecko/microbenchmarks/stress-ng$ perf stat
 Error:
 Access to performance monitoring and observability operations is limited.
@@ -37,3 +38,4 @@ hand32@node0:~/ecko/microbenchmarks/stress-ng$ perf list | head -n 20
   minor-faults                                       [Software event]
   page-faults OR faults                              [Software event]
   task-clock                                         [Software event]
+```
