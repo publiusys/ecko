@@ -17,14 +17,13 @@ def main() -> None:
     
     while True:
         try:
-            result = subprocess.run(
-                "sudo ipmitool sensor | grep Watts",
-                shell=True,
-                capture_output=True,
-                check=True,
-                text=True)
-        
-            logger.info(f"\n{result.stdout}")
+            result = subprocess.check_output(
+                    ['sudo', 'ipmitool', 'sensor'],
+                    text=True)
+            
+            for line in result.splitlines():
+                if "Watts" in line:
+                    logger.info(','.join([part.strip() for part in line.split("|")]))
         except Exception as err:
             logger.error(err.stderr)
 
