@@ -3,8 +3,7 @@
 import logging
 from logging import Logger
 import asyncio
-
-LOG_FILE_PATH = "power_consumption_info.log"
+from datetime import datetime
 
 
 async def log_ipmisensor(logger : Logger) -> None:
@@ -55,18 +54,41 @@ async def log_perfsensor(logger : Logger) -> None:
 
 
 async def async_main() -> None:
-    logging.basicConfig(
-            filename=LOG_FILE_PATH,
-            filemode='a',
-            format='%(asctime)s,%(message)s',
-            datefmt="%Y-%m-%d %H:%M:%S",
-            level=logging.INFO)
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
-    logger = logging.getLogger()
+    ipmisensor_logger = init_logger(
+            "ipmisensor",
+            f"ipmi{timestamp}.log")
+
+    perfsensor_logger = init_logger(
+            "perfsensor",
+            f"perf{timestamp}.log")
 
     await asyncio.gather(
-            log_ipmisensor(logger),
-            log_perfsensor(logger))
+            log_ipmisensor(ipmisensor_logger),
+            log_perfsensor(perfsensor_logger))
+
+
+def init_logger(
+        name : str,
+        file_path : str,
+        level=logging.INFO,
+        date_format : str = "%Y-%m-%d %H:%M:%S") -> Logger:
+    """Function for creating new Logger objects
+    https://stackoverflow.com/questions/11232230/logging-to-two-files-with-different-settings"""
+
+    formatter = logging.Formatter(
+        '%(asctime)s,%(message)s',
+        datefmt=date_format)
+
+    handler = logging.FileHandler(file_path)        
+    handler.setFormatter(formatter)
+
+    logger = logging.getLogger(name)
+    logger.setLevel(level)
+    logger.addHandler(handler)
+
+    return logger
 
 
 def main() -> None:
