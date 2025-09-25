@@ -2,10 +2,10 @@
 
 function install_service()
 {
-	sudo cp rapl_log.service /etc/systemd/system/
+	sudo cp logger.service /etc/systemd/system/
 	sudo systemctl daemon-reload
 
-	echo "$(sudo systemctl status logger.service)"
+	sudo systemctl status logger.service
 }
 
 function start_service()
