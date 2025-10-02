@@ -6,9 +6,9 @@ pc = portal.Context()
 
 request = pc.makeRequestRSpec()
 
-#pc.defineParameter("nodeCount", "Number of Nodes", portal.ParameterType.INTEGER, 1,
-                    #longDescription="If you specify more then one node, " +
-                    #"we will create a lan for you.")
+pc.defineParameter("nodeCount", "Number of Nodes", portal.ParameterType.INTEGER, 1,
+                    longDescription="If you specify more then one node, " +
+                    "we will create a lan for you.")
 
 imageList = [
     ('default', 'Default Image'),
@@ -36,50 +36,41 @@ pc.defineParameter("phystype",  "Optional physical node type",
 params = pc.bindParameters()
 pc.verifyParameters()
 
-# Add a raw PC to the request.
-node = request.RawPC("node")
+# Create link/lan.
+if params.nodeCount > 1:
+    if params.nodeCount == 2:
+        lan = request.Link()
+    else:
+        lan = request.LAN()
+        
+    if params.bestEffort:
+        lan.best_effort = True
+    elif params.linkSpeed > 0:
+        lan.bandwidth = params.linkSpeed
 
-# Install and execute a script that is contained in the repository.
-node.addService(pg.Execute(shell="sh", command="/local/repository/setup.sh"))
+    if params.sameSwitch:
+        lan.setNoInterSwitchLinks()
+
+# Process nodes, adding to link or lan.
+for i in range(params.nodeCount):
+    # Create a node and add it to the request
+    name = "node" + str(i)
+    node = request.RawPC(name)
+    
+    # Install and execute a script that is contained in the repository.
+    node.addService(pg.Execute(shell="bash", command="/local/repository/setup.sh"))
+
+    if params.osImage and params.osImage != "default":
+        node.disk_image = params.osImage
+
+    # Add to lan
+    if params.nodeCount > 1:
+        iface = node.addInterface("eth1")
+        lan.addInterface(iface)
+    
+    # Optional hardware type.
+    if params.phystype != "":
+        node.hardware_type = params.phystype
 
 # Print the RSpec to the enclosing page.
 pc.printRequestRSpec(request)
-
-# Create link/lan.
-#if params.nodeCount > 1:
-    #if params.nodeCount == 2:
-        #lan = request.Link()
-    #else:
-        #lan = request.LAN()
-        
-    #if params.bestEffort:
-        #lan.best_effort = True
-    #elif params.linkSpeed > 0:
-        #lan.bandwidth = params.linkSpeed
-
-    #if params.sameSwitch:
-        #lan.setNoInterSwitchLinks()
-
-# Process nodes, adding to link or lan.
-#for i in range(params.nodeCount):
-    # Create a node and add it to the request
-    #name = "node" + str(i)
-    #node = request.RawPC(name)
-    
-    # Install and execute a script that is contained in the repository.
-    #node.addService(pg.Execute(shell="bash", command="/local/repository/setup.sh"))
-
-    #if params.osImage and params.osImage != "default":
-        #node.disk_image = params.osImage
-
-    # Add to lan
-    #if params.nodeCount > 1:
-        #iface = node.addInterface("eth1")
-        #lan.addInterface(iface)
-    
-    # Optional hardware type.
-    #if params.phystype != "":
-        #node.hardware_type = params.phystype
-
-# Print the RSpec to the enclosing page.
-#pc.printRequestRSpec(request)
