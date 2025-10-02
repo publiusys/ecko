@@ -1,6 +1,4 @@
 #!/bin/bash
 
-echo "Please work..." > /tmp/plead.txt
-
-sudo apt update -y
-sudo apt install -y ipmitool
+sudo apt-get update -y
+sudo apt-get install -y ipmitool
