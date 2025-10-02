@@ -2,80 +2,75 @@ import geni.portal as portal
 import geni.rspec.pg as pg
 import geni.rspec.emulab as emulab
 
-def main() -> None:
-    pc = portal.Context()
+pc = portal.Context()
+
+request = pc.makeRequestRSpec()
+
+pc.defineParameter("nodeCount", "Number of Nodes", portal.ParameterType.INTEGER, 1,
+                    longDescription="If you specify more then one node, " +
+                    "we will create a lan for you.")
+
+imageList = [
+    ('default', 'Default Image'),
+    ('urn:publicid:IDN+emulab.net+image+emulab-ops//UBUNTU24-64-STD', 'Ubuntu 24.04'),
+    ('urn:publicid:IDN+emulab.net+image+emulab-ops//UBUNTU22-64-STD', 'Ubuntu 22.04'),
+    ('urn:publicid:IDN+emulab.net+image+emulab-ops//UBUNTU20-64-STD', 'Ubuntu 20.04'),
+    ('urn:publicid:IDN+emulab.net+image+emulab-ops//UBUNTU18-64-STD', 'Ubuntu 18.04'),
+    ('urn:publicid:IDN+emulab.net+image+emulab-ops//CENTOS9S-64-STD', 'CentOS 9 Stream'),
+    ('urn:publicid:IDN+emulab.net+image+emulab-ops//CENTOS8S-64-STD', 'CentOS 8 Stream'),
+    ('urn:publicid:IDN+emulab.net+image+emulab-ops//ROCKY9-64-STD',   'Rocky Linux 9'),
+    ('urn:publicid:IDN+emulab.net+image+emulab-ops//FBSD135-64-STD',  'FreeBSD 13.5'),
+    ('urn:publicid:IDN+emulab.net+image+emulab-ops//FBSD142-64-STD',  'FreeBSD 14.2')]
     
-    request = pc.makeRequestRSpec()
+pc.defineParameter("osImage", "Select OS image",
+                    portal.ParameterType.IMAGE,
+                    imageList[0], imageList,
+                    longDescription="Most clusters have this set of images, " +
+                    "pick your favorite one.")
+
+pc.defineParameter("phystype",  "Optional physical node type",
+                    portal.ParameterType.NODETYPE, "",
+                    longDescription="Pick a single physical node type (pc3000,d710,etc) " +
+                    "instead of letting the resource mapper choose for you.")
+
+params = pc.bindParameters()
+pc.verifyParameters()
+
+# Create link/lan.
+if params.nodeCount > 1:
+    if params.nodeCount == 2:
+        lan = request.Link()
+    else:
+        lan = request.LAN()
+        
+    if params.bestEffort:
+        lan.best_effort = True
+    elif params.linkSpeed > 0:
+        lan.bandwidth = params.linkSpeed
+
+    if params.sameSwitch:
+        lan.setNoInterSwitchLinks()
+
+# Process nodes, adding to link or lan.
+for i in range(params.nodeCount):
+    # Create a node and add it to the request
+    name = "node" + str(i)
+    node = request.RawPC(name)
     
-    pc.defineParameter("nodeCount", "Number of Nodes", portal.ParameterType.INTEGER, 1,
-                       longDescription="If you specify more then one node, " +
-                       "we will create a lan for you.")
+    # Install and execute a script that is contained in the repository.
+    node.addService(pg.Execute(shell="bash", command="/local/repository/setup.sh"))
 
-    imageList = [
-        ('default', 'Default Image'),
-        ('urn:publicid:IDN+emulab.net+image+emulab-ops//UBUNTU24-64-STD', 'Ubuntu 24.04'),
-        ('urn:publicid:IDN+emulab.net+image+emulab-ops//UBUNTU22-64-STD', 'Ubuntu 22.04'),
-        ('urn:publicid:IDN+emulab.net+image+emulab-ops//UBUNTU20-64-STD', 'Ubuntu 20.04'),
-        ('urn:publicid:IDN+emulab.net+image+emulab-ops//UBUNTU18-64-STD', 'Ubuntu 18.04'),
-        ('urn:publicid:IDN+emulab.net+image+emulab-ops//CENTOS9S-64-STD', 'CentOS 9 Stream'),
-        ('urn:publicid:IDN+emulab.net+image+emulab-ops//CENTOS8S-64-STD', 'CentOS 8 Stream'),
-        ('urn:publicid:IDN+emulab.net+image+emulab-ops//ROCKY9-64-STD',   'Rocky Linux 9'),
-        ('urn:publicid:IDN+emulab.net+image+emulab-ops//FBSD135-64-STD',  'FreeBSD 13.5'),
-        ('urn:publicid:IDN+emulab.net+image+emulab-ops//FBSD142-64-STD',  'FreeBSD 14.2')]
-    
-    pc.defineParameter("osImage", "Select OS image",
-                       portal.ParameterType.IMAGE,
-                       imageList[0], imageList,
-                       longDescription="Most clusters have this set of images, " +
-                       "pick your favorite one.")
+    if params.osImage and params.osImage != "default":
+        node.disk_image = params.osImage
 
-    pc.defineParameter("phystype",  "Optional physical node type",
-                       portal.ParameterType.NODETYPE, "",
-                       longDescription="Pick a single physical node type (pc3000,d710,etc) " +
-                       "instead of letting the resource mapper choose for you.")
-
-    params = pc.bindParameters()
-
-    pc.verifyParameters()
-
-    # Create link/lan.
+    # Add to lan
     if params.nodeCount > 1:
-        if params.nodeCount == 2:
-            lan = request.Link()
-        else:
-            lan = request.LAN()
-
-        if params.bestEffort:
-            lan.best_effort = True
-        elif params.linkSpeed > 0:
-            lan.bandwidth = params.linkSpeed
-
-        if params.sameSwitch:
-            lan.setNoInterSwitchLinks()
-
-    # Process nodes, adding to link or lan.
-    for i in range(params.nodeCount):
-        # Create a node and add it to the request
-        name = "node" + str(i)
-        node = request.RawPC(name)
-
-        # Install and execute a script that is contained in the repository.
-        node.addService(pg.Execute(shell="bash", command="/local/repository/setup.sh"))
-
-        if params.osImage and params.osImage != "default":
-            node.disk_image = params.osImage
-
-        # Add to lan
-        if params.nodeCount > 1:
-            iface = node.addInterface("eth1")
-            lan.addInterface(iface)
+        iface = node.addInterface("eth1")
+        lan.addInterface(iface)
     
-        # Optional hardware type.
-        if params.phystype != "":
-            node.hardware_type = params.phystype
+    # Optional hardware type.
+    if params.phystype != "":
+        node.hardware_type = params.phystype
 
-    # Print the RSpec to the enclosing page.
-    pc.printRequestRSpec(request)
-
-if __name__ == '__main__':
-    main()
+# Print the RSpec to the enclosing page.
+pc.printRequestRSpec(request)
