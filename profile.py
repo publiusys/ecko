@@ -66,7 +66,7 @@ for i in range(params.nodeCount):
     node = request.RawPC(name)
     
     # Install and execute a script that is contained in the repository.
-    node.addService(pg.Execute(shell="bash", command="/local/repository/setup.sh"))
+    node.addService(pg.Execute(shell="sh", command="/local/repository/setup.sh"))
 
     if params.osImage and params.osImage != "default":
         node.disk_image = params.osImage
