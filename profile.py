@@ -59,14 +59,14 @@ if params.nodeCount > 1:
         lan = request.Link()
     else:
         lan = request.LAN()
-        pass
+
     if params.bestEffort:
         lan.best_effort = True
     elif params.linkSpeed > 0:
         lan.bandwidth = params.linkSpeed
+
     if params.sameSwitch:
         lan.setNoInterSwitchLinks()
-    pass
 
 # Process nodes, adding to link or lan.
 for i in range(params.nodeCount):
@@ -77,20 +77,17 @@ for i in range(params.nodeCount):
     # Install and execute a script that is contained in the repository.
     node.addService(pg.Execute(shell="sh", command="/local/repository/setup.sh"))
 
-    pass
     if params.osImage and params.osImage != "default":
         node.disk_image = params.osImage
-        pass
+
     # Add to lan
     if params.nodeCount > 1:
         iface = node.addInterface("eth1")
         lan.addInterface(iface)
-        pass
+
     # Optional hardware type.
     if params.phystype != "":
         node.hardware_type = params.phystype
-        pass
-    pass
 
 # Print the RSpec to the enclosing page.
 pc.printRequestRSpec(request)
