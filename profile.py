@@ -161,7 +161,7 @@ for i in range(params.nodeCount):
     else:
         name = "node" + str(i)
         node = request.RawPC(name)
-        node.addService(pg.Execute(shell="sh", command="/local/repository/setup.sh"))
+        node.addService(pg.Execute(shell="sh", command=f"/local/repository/setup.sh {name}"))
         pass
     if params.osImage and params.osImage != "default":
         node.disk_image = params.osImage
