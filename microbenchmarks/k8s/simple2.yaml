@@ -1,0 +1,50 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple2
+  labels:
+    app: simple2
+spec:
+  replicas: 1 # one replica of deployment gets launched
+  selector:
+    matchLabels:
+      app: simple2
+  template:
+    metadata:
+      labels:
+        app: simple2
+      name: simple2
+    spec:
+      # nodeName: client1.hand32-249629.bayopsys-pg0.wisc.cloudlab.us - uncomment this to force pod to be deployed on specific node (using `kubectl get nodes` to get list of nodes)
+      volumes:
+        - name: log-share
+          emptyDir: {}
+      containers:
+        - name: client
+          image: ubuntu:latest
+          imagePullPolicy: Always
+          volumeMounts: # sharing a common file system between two pods launched in the same Deployment
+            - mountPath: /log-share/
+              name: log-share
+          command:
+            - '/bin/bash'
+            - '-c'
+            - >
+              apt update -y;
+              touch /log-share/hello.txt;
+              echo "🟢🟢 Done. Sleeping for 30 days 🟢🟢";
+              sleep 30d;
+        - name: server # launching a second pod
+          image: ubuntu:latest
+          imagePullPolicy: Always
+          volumeMounts: # sharing a common file system between two pods launched in the same Deployment
+            - mountPath: /log-share/
+              name: log-share	  
+          command:
+            - '/bin/bash'
+            - '-c'
+            - >
+              apt update -y;
+              echo "🟢🟢 Done. Sleeping for 30 days 🟢🟢";
+              sleep 30d;

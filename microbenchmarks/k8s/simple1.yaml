@@ -1,0 +1,29 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple1
+  labels:
+    app: simple1
+spec:
+  replicas: 1 # one replica of pod gets launched
+  selector:
+    matchLabels:
+      app: simple1
+  template:
+    metadata:
+      labels:
+        app: simple1
+      name: simple1
+    spec:
+      # nodeName: client1.hand32-249629.bayopsys-pg0.wisc.cloudlab.us - uncomment this to force pod to be deployed on specific node (using `kubectl get nodes` to get list of nodes)
+      containers:
+        - name: ubuntu
+          image: ubuntu:latest
+          imagePullPolicy: Always
+          command:
+            - '/bin/bash'
+            - '-c'
+            - >
+              echo "🟢🟢 Done. Sleeping for 30 days 🟢🟢";
+              sleep 30d
