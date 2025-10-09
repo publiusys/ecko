@@ -4,7 +4,7 @@ sudo apt-get update -y
 sudo apt-get install -y ipmitool
 sudo apt-get install -y docker.io
 
-sudo cp power-consumption-logger/power-consumption-logger.service /etc/systemd/system/
+sudo cp -f power-consumption-logger/power-consumption-logger.service /etc/systemd/system/
 sudo systemctl daemon-reload
 sudo systemctl start power-consumption-logger.service
 
