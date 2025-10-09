@@ -1,9 +1,0 @@
-[Unit]
-Description=Data logger for perf and ipmitool sensors
-
-[Service]
-WorkingDirectory=/tmp/ecko/microbenchmarks/stress-ng/
-ExecStart=/usr/bin/python logger.py
-
-[Install]
-WantedBy=multi-user.target
