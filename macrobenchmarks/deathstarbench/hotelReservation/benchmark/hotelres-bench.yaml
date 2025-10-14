@@ -30,7 +30,7 @@ spec:
         image: quay.io/centos/centos:stream9
         imagePullPolicy: Always
         volumeMounts:
-          - mountPath: /cilantrologs/
+          - mountPath: /sharelogs/
             name: log-share
         command:
           - '/bin/bash'
