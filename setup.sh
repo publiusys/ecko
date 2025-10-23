@@ -57,10 +57,10 @@ if [ "$IS_MASTER" = true ]; then
   sed -i 's/cidr: 192\.168\.0\.0\/16/cidr: 10.10.0.0\/16/g' custom-resources.yaml
   kubectl create -f custom-resources.yaml
 else
-  until ssh -o StrictHostKeyChecking=no node0 "kubectl get nodes >/dev/null 2>&1"; do
-    sleep 5
-  done
+  #until ssh -o StrictHostKeyChecking=no node0 "kubectl get nodes >/dev/null 2>&1"; do
+  #  sleep 5
+  #done
 
-  JOIN_CMD=$(ssh -o StrictHostKeyChecking=no node0 "sudo kubeadm token create --print-join-command 2>/dev/null")
-  sudo $JOIN_CMD
+  #JOIN_CMD=$(ssh -o StrictHostKeyChecking=no node0 "sudo kubeadm token create --print-join-command 2>/dev/null")
+  #sudo $JOIN_CMD
 fi
