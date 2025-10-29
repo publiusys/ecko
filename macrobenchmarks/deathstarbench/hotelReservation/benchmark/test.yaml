@@ -1,0 +1,40 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hr-client
+  labels:
+    death-star-project: hotel-res
+    app: hr-client
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      death-star-project: hotel-res
+      app: hr-client
+  template:
+    metadata:
+      labels: 
+        death-star-project: hotel-res
+        app: hr-client
+      name: hr-client
+#      annotations:
+#        sidecar.istio.io/inject: "true"
+    spec:
+      nodeName: node1.slmoore-275969.bayopsys-pg0.wisc.cloudlab.us
+      volumes:
+        - name: log-share
+          emptyDir: {}
+      containers:
+      - name: hr-client
+        image: ubuntu:24.04
+        imagePullPolicy: Always
+        volumeMounts:
+          - mountPath: /sharelogs/
+            name: log-share
+        command:
+          - '/bin/bash'
+          - '-c'
+          - >
+            apt-get -y update;
+            sleep 30d;
