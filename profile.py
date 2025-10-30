@@ -134,20 +134,16 @@ if params.phystype != "":
 
 pc.verifyParameters()
 
+lan = request.LAN()
+
 # Create link/lan.
 if params.nodeCount > 1:
-    if params.nodeCount == 2:
-        lan = request.Link()
-    else:
-        lan = request.LAN()
-        pass
     if params.bestEffort:
         lan.best_effort = True
     elif params.linkSpeed > 0:
         lan.bandwidth = params.linkSpeed
     if params.sameSwitch:
         lan.setNoInterSwitchLinks()
-    pass
 
 # Process nodes, adding to link or lan.
 for i in range(params.nodeCount):
@@ -157,24 +153,19 @@ for i in range(params.nodeCount):
         node = request.XenVM(name)
         if params.exclusiveVMs:
             node.exclusive = True
-            pass
     else:
         name = "node" + str(i)
         node = request.RawPC(name)
         node.addService(pg.Execute(shell="sh", command="/local/repository/setup.sh"))
-        pass
     if params.osImage and params.osImage != "default":
         node.disk_image = params.osImage
-        pass
     # Add to lan
     if params.nodeCount > 1:
         iface = node.addInterface("eth1")
         lan.addInterface(iface)
-        pass
     # Optional hardware type.
     if params.phystype != "":
         node.hardware_type = params.phystype
-        pass
     # Optional Blockstore
     if params.tempFileSystemSize > 0 or params.tempFileSystemMax:
         bs = node.Blockstore(name + "-bs", params.tempFileSystemMount)
@@ -182,9 +173,7 @@ for i in range(params.nodeCount):
             bs.size = "0GB"
         else:
             bs.size = str(params.tempFileSystemSize) + "GB"
-            pass
         bs.placement = "any"
-        pass
     #
     # Install and start X11 VNC. Calling this informs the Portal that you want a VNC
     # option in the node context menu to create a browser VNC client.
@@ -193,8 +182,13 @@ for i in range(params.nodeCount):
     #
     if params.startVNC:
         node.startVNC()
-        pass
-    pass
+
+client = request.RawPC("client")
+client.hardware_type = "c220g2"
+client.disk_image = params.osImage
+client.addService(pg.Execute(shell="sh", command="/local/repository/setup.sh"))
+client_interface = client.addInterface("eth1")
+lan.addInterface(client_interface)
 
 # Print the RSpec to the enclosing page.
 pc.printRequestRSpec(request)
