@@ -21,7 +21,7 @@ spec:
 #      annotations:
 #        sidecar.istio.io/inject: "true"
     spec:
-      nodeName: node1.slmoore-275969.bayopsys-pg0.wisc.cloudlab.us
+      nodeName: HOSTNAME_PLACEHOLDER
       volumes:
         - name: log-share
           emptyDir: {}
@@ -36,5 +36,39 @@ spec:
           - '/bin/bash'
           - '-c'
           - >
+            export DEBIAN_FRONTEND=noninteractive;
             apt-get -y update;
-            sleep 30d;
+            apt-get -y install build-essential python3 git wget unzip libreadline-dev python3-statsmodels python3-kubernetes;
+            git clone https://github.com/publiusys/ecko.git;
+            wget https://www.lua.org/ftp/lua-5.1.5.tar.gz;
+            tar -xf lua-5.1.5.tar.gz;
+            cd lua-5.1.5;
+            make linux;
+            make all test;
+            make install;
+            cd /;
+            wget https://luarocks.org/releases/luarocks-2.4.2.tar.gz;
+            tar -xf luarocks-2.4.2.tar.gz;
+            cd luarocks-2.4.2;
+            ./configure && make && make install;
+            export PATH=$PATH:/usr/local/bin;
+            luarocks-5.1 install luasocket;
+            cd /ecko/macrobenchmarks/deathstarbench/hotelReservation/benchmark/ && tar -xf cilantro_awsecr.tar.gz;
+            ln -s /ecko/macrobenchmarks/deathstarbench/hotelReservation/benchmark/cilantro_awsecr/driver/ /driver;
+            ln -s /ecko/macrobenchmarks/deathstarbench/hotelReservation/benchmark/cilantro_awsecr/wrk2/ /wrk2;
+            cd /;
+            chmod 777 /wrk2/wrk;
+            cd /usr/lib/x86_64-linux-gnu/;
+            ln libcrypto.so.3 libcrypto.so.1.1;
+            cd /;
+            wget https://github.com/openssl/openssl/releases/download/OpenSSL_1_1_0l/openssl-1.1.0l.tar.gz;
+            tar -xf openssl-1.1.0l.tar.gz;
+            cd openssl-1.1.0l;
+            ./config;
+            make -j;
+            make install;
+            export LD_LIBRARY_PATH=/openssl-1.1.0l;
+            cd /;
+            python3 /driver/wrk_runscript.py --wrk-logdir /sharelogs/ --wrk-qps 3000 --wrk-duration 30 --wrk-num-threads 32 --wrk-num-connections 32 --wrk-url http://frontend.default.svc.cluster.local:5000;
+
+
