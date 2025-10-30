@@ -10,7 +10,7 @@
 #
 # Last Modified: 10/28/2025
 
-if [[ "$(hostname -I)" == *"10.10.1.1"* ]]; then
+if [[ "$(hostname -s)" == "client" ]]; then
 	echo "MASTER"
 	exit 0
 else
