@@ -3,10 +3,6 @@
 #
 # Description: 
 # If the node this script is run on is not the master node, then it will attempt to join the kubernetes cluster.
-#
-# Author: Seth Moore (slmoore@hamilton.edu)
-#
-# Last Modified: 10/28/2025
 
 if ! ./is-master.sh; then
 	until ssh -o StrictHostKeyChecking=no node0 "kubectl get nodes >/dev/null 2>&1"; do
