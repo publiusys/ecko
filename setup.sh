@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get update -y
-sudo apt-get install -y ipmitool
+sudo apt-get install -y ipmitool cpufrequtils
 sudo apt-get install -y docker.io
 
 sudo cp -f power-consumption-logger/power-consumption-logger.service /etc/systemd/system/
@@ -12,6 +12,13 @@ sudo swapoff -a
 
 sudo modprobe overlay
 sudo modprobe br_netfilter
+
+# Set the policy on all CPUs to performance
+MAX_CPU=$(( $(nproc) - 1 ))
+for i in $(seq 0 $MAX_CPU); do
+    echo "Setting CPU $i to performance mode"
+    sudo cpufreq-set --cpu $i --governor performance
+done
 
 sudo tee /etc/modules-load.d/k8s.conf <<EOF
 overlay
