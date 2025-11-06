@@ -12,7 +12,7 @@ Use `sudo` to run root commands.
 # Import the Portal object.
 import geni.portal as portal
 # Import the ProtoGENI library.
-import geni.rspec.pg as pg
+import geni.rspec.pg as protogeni
 # Emulab specific extensions.
 import geni.rspec.emulab as emulab
 
@@ -146,31 +146,34 @@ if parameters.nodeCount > 1:
     if parameters.sameSwitch:
         local_area_network.setNoInterSwitchLinks()
 
-# Process nodes, adding to link or lan.
+# Process worker nodes, adding to link or lan.
 for i in range(parameters.nodeCount):
     # Create a node and add it to the request
     if parameters.useVMs:
-        name = "vm" + str(i)
-        node = request.XenVM(name)
+        worker_node_name = "vm" + str(i)
+        worker_node = request.XenVM(worker_node_name)
         if parameters.exclusiveVMs:
-            node.exclusive = True
+            worker_node.exclusive = True
     else:
-        name = "worker" + str(i)
-        node = request.RawPC(node_name)
-        node.addService(pg.Execute(shell="sh", command="/local/repository/setup.sh"))
+        worker_node_name = "worker" + str(i)
+        worker_node = request.RawPC(worker_node_name)
+        worker_node.addService(protogeni.Execute(shell="sh", command="/local/repository/setup.sh"))
     if parameters.osImage and parameters.osImage != "default":
-        node.disk_image = parameters.osImage
+        worker_node.disk_image = parameters.osImage
     
     # Add node to LAN
-    node_interface = node.addInterface("eth1")
-    local_area_network.addInterface(node_interface)
+    worker_node_interface = worker_node.addInterface("eth1")
+    local_area_network.addInterface(worker_node_interface)
   
     # Optional hardware type.
     if parameters.phystype != "":
-        node.hardware_type = parameters.phystype
+        worker_node.hardware_type = parameters.phystype
     # Optional Blockstore
     if parameters.tempFileSystemSize > 0 or parameters.tempFileSystemMax:
-        blockstore = node.Blockstore(name + "-bs", parameters.tempFileSystemMount)
+        blockstore = worker_node.Blockstore(
+          worker_node_name + "-bs",
+          parameters.tempFileSystemMount)
+      
         if parameters.tempFileSystemMax:
             blockstore.size = "0GB"
         else:
@@ -183,15 +186,15 @@ for i in range(parameters.nodeCount):
     # If you prefer to start the VNC server yourself (on port 5901) then add nostart=True. 
     #
     if parameters.startVNC:
-        node.startVNC()
+        worker_node.startVNC()
 
 # Create client node
 client_node = request.RawPC("client")
 client_node.hardware_type = "c220g2"
-client_node.disk_image = params.osImage
-client_node.addService(pg.Execute(shell="sh", command="/local/repository/setup.sh"))
-client_interface = client_node.addInterface("eth1")
-local_area_network.addInterface(client_interface)
+client_node.disk_image = parameters.osImage
+client_node.addService(protogeni.Execute(shell="sh", command="/local/repository/setup.sh"))
+client_node_interface = client_node.addInterface("eth1")
+local_area_network.addInterface(client_node_interface)
 
 # Print the RSpec to the enclosing page.
 portal_context.printRequestRSpec(request)
