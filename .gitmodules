@@ -1,3 +1,0 @@
-[submodule "power-consumption-logger"]
-	path = power-consumption-logger
-	url = https://github.com/m-sef/power-consumption-logger.git
