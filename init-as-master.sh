@@ -3,10 +3,6 @@
 #
 # Description:
 # 	If this script is run on the master node, then it will initialize the kubernetes cluster as well as installing the Calico network add-on plugin.
-#
-# Author: Seth Moore (slmoore@hamilton.edu)
-#
-# Last Modified: 10/28/2025
 
 if ./is-master.sh; then
 	sudo kubeadm init --pod-network-cidr=10.10.0.0/16
