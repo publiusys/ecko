@@ -21,7 +21,7 @@ spec:
 #      annotations:
 #        sidecar.istio.io/inject: "true"
     spec:
-      nodeName: HOSTNAME_PLACEHOLDER
+      nodeName: ${HOST_NAME}
       volumes:
         - name: log-share
           emptyDir: {}
