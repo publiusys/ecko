@@ -192,7 +192,7 @@ for i in range(parameters.nodeCount):
 client_node = request.RawPC("client")
 client_node.hardware_type = "c220g2"
 client_node.disk_image = parameters.osImage
-client_node.addService(protogeni.Execute(shell="sh", command="/local/repository/setup.sh"))
+client_node.addService(protogeni.Execute(shell="sh", command="/local/repository/scripts/setup.sh"))
 client_node_interface = client_node.addInterface("eth1")
 local_area_network.addInterface(client_node_interface)
 
