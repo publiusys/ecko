@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get update -y
-sudo apt-get install -y ipmitool cpufrequtils
+sudo apt-get install -y ipmitool cpufrequtils conntrack
 sudo apt-get install -y docker.io
 
 sudo cp -f power-consumption-logger/power-consumption-logger.service /etc/systemd/system/
