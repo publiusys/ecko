@@ -1,0 +1,45 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hr-client
+  labels:
+    death-star-project: hotel-res
+    app: hr-client
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      death-star-project: hotel-res
+      app: hr-client
+  template:
+    metadata:
+      labels: 
+        death-star-project: hotel-res
+        app: hr-client
+      name: hr-client
+#      annotations:
+#        sidecar.istio.io/inject: "true"
+    spec:
+      nodeName: ${HOST_NAME}
+      volumes:
+        - name: log-share
+          emptyDir: {}
+      containers:
+      - name: hr-client
+        image: ubuntu:24.04
+        imagePullPolicy: Always
+        volumeMounts:
+          - mountPath: /sharelogs/
+            name: log-share
+        command:
+          - '/bin/bash'
+          - '-c'
+          - >
+            export DEBIAN_FRONTEND=noninteractive;
+            apt-get -y update;
+            apt-get -y install build-essential git libssl-dev zlib1g-dev;
+            git clone https://gitlab.engr.illinois.edu/DEPEND/firm.git;
+            cd /firm/benchmarks/1-social-network/wrk2/;
+            make;
+            ./wrk --duration=48h --rate=100000 --threads=32 --connections=32 http://frontend.default.svc.cluster.local:5000;
