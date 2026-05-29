@@ -1,0 +1,41 @@
+Running 5m test @ http://frontend.default.svc.cluster.local:5000
+  32 threads and 32 connections
+  Thread calibration: mean lat.: 4.751ms, rate sampling interval: 19ms
+  Thread calibration: mean lat.: 4.166ms, rate sampling interval: 17ms
+  Thread calibration: mean lat.: 4.991ms, rate sampling interval: 20ms
+  Thread calibration: mean lat.: 4.622ms, rate sampling interval: 19ms
+  Thread calibration: mean lat.: 4.383ms, rate sampling interval: 20ms
+  Thread calibration: mean lat.: 4.598ms, rate sampling interval: 19ms
+  Thread calibration: mean lat.: 5.472ms, rate sampling interval: 25ms
+  Thread calibration: mean lat.: 4.872ms, rate sampling interval: 19ms
+  Thread calibration: mean lat.: 4.356ms, rate sampling interval: 18ms
+  Thread calibration: mean lat.: 4.894ms, rate sampling interval: 20ms
+  Thread calibration: mean lat.: 4.394ms, rate sampling interval: 18ms
+  Thread calibration: mean lat.: 4.866ms, rate sampling interval: 20ms
+  Thread calibration: mean lat.: 4.781ms, rate sampling interval: 18ms
+  Thread calibration: mean lat.: 5.287ms, rate sampling interval: 21ms
+  Thread calibration: mean lat.: 4.511ms, rate sampling interval: 20ms
+  Thread calibration: mean lat.: 4.881ms, rate sampling interval: 21ms
+  Thread calibration: mean lat.: 4.191ms, rate sampling interval: 19ms
+  Thread calibration: mean lat.: 4.267ms, rate sampling interval: 17ms
+  Thread calibration: mean lat.: 4.496ms, rate sampling interval: 18ms
+  Thread calibration: mean lat.: 4.840ms, rate sampling interval: 19ms
+  Thread calibration: mean lat.: 5.031ms, rate sampling interval: 21ms
+  Thread calibration: mean lat.: 4.773ms, rate sampling interval: 19ms
+  Thread calibration: mean lat.: 4.289ms, rate sampling interval: 17ms
+  Thread calibration: mean lat.: 4.743ms, rate sampling interval: 20ms
+  Thread calibration: mean lat.: 4.998ms, rate sampling interval: 21ms
+  Thread calibration: mean lat.: 4.040ms, rate sampling interval: 16ms
+  Thread calibration: mean lat.: 5.133ms, rate sampling interval: 21ms
+  Thread calibration: mean lat.: 4.527ms, rate sampling interval: 18ms
+  Thread calibration: mean lat.: 4.928ms, rate sampling interval: 20ms
+  Thread calibration: mean lat.: 5.015ms, rate sampling interval: 21ms
+  Thread calibration: mean lat.: 4.337ms, rate sampling interval: 18ms
+  Thread calibration: mean lat.: 4.676ms, rate sampling interval: 18ms
+  Thread Stats   Avg      Stdev     99%   +/- Stdev
+    Latency     4.67ms    3.61ms  16.08ms   82.87%
+    Req/Sec    15.32     28.57   111.00     75.48%
+  144207 completed requests in 5.00m, 59.68MB read
+Completed Requests/sec (Throughput):    480.67
+Sent Requests/sec (Load):    537.68
+Transfer/sec:    203.70KB
