@@ -1,0 +1,341 @@
+Running 5m test @ http://frontend.default.svc.cluster.local:5000
+  32 threads and 32 connections
+  Thread calibration: mean lat.: 6.246ms, rate sampling interval: 25ms
+  Thread calibration: mean lat.: 5.974ms, rate sampling interval: 23ms
+[trace     0s / 310s]  target RPS: 326
+  Thread calibration: mean lat.: 6.121ms, rate sampling interval: 22ms
+  Thread calibration: mean lat.: 5.648ms, rate sampling interval: 19ms
+  Thread calibration: mean lat.: 4.714ms, rate sampling interval: 15ms
+  Thread calibration: mean lat.: 5.220ms, rate sampling interval: 27ms
+  Thread calibration: mean lat.: 6.461ms, rate sampling interval: 29ms
+  Thread calibration: mean lat.: 5.665ms, rate sampling interval: 21ms
+  Thread calibration: mean lat.: 5.166ms, rate sampling interval: 17ms
+  Thread calibration: mean lat.: 6.380ms, rate sampling interval: 23ms
+  Thread calibration: mean lat.: 5.029ms, rate sampling interval: 20ms
+  Thread calibration: mean lat.: 5.563ms, rate sampling interval: 24ms
+  Thread calibration: mean lat.: 4.181ms, rate sampling interval: 16ms
+  Thread calibration: mean lat.: 7.230ms, rate sampling interval: 28ms
+  Thread calibration: mean lat.: 6.348ms, rate sampling interval: 27ms
+  Thread calibration: mean lat.: 4.999ms, rate sampling interval: 21ms
+  Thread calibration: mean lat.: 5.344ms, rate sampling interval: 19ms
+  Thread calibration: mean lat.: 5.783ms, rate sampling interval: 23ms
+  Thread calibration: mean lat.: 5.823ms, rate sampling interval: 22ms
+  Thread calibration: mean lat.: 4.827ms, rate sampling interval: 15ms
+  Thread calibration: mean lat.: 6.264ms, rate sampling interval: 23ms
+  Thread calibration: mean lat.: 5.936ms, rate sampling interval: 27ms
+  Thread calibration: mean lat.: 4.724ms, rate sampling interval: 15ms
+  Thread calibration: mean lat.: 5.878ms, rate sampling interval: 26ms
+  Thread calibration: mean lat.: 4.652ms, rate sampling interval: 15ms
+  Thread calibration: mean lat.: 4.145ms, rate sampling interval: 13ms
+  Thread calibration: mean lat.: 4.344ms, rate sampling interval: 17ms
+  Thread calibration: mean lat.: 4.107ms, rate sampling interval: 15ms
+  Thread calibration: mean lat.: 4.075ms, rate sampling interval: 18ms
+  Thread calibration: mean lat.: 4.619ms, rate sampling interval: 20ms
+  Thread calibration: mean lat.: 6.076ms, rate sampling interval: 26ms
+  Thread calibration: mean lat.: 6.360ms, rate sampling interval: 21ms
+[trace     1s / 310s]  target RPS: 281
+[trace     1s / 310s]  target RPS: 281
+[trace     3s / 310s]  target RPS: 220
+[trace     4s / 310s]  target RPS: 195
+[trace     4s / 310s]  target RPS: 195
+[trace     6s / 310s]  target RPS: 169
+[trace     7s / 310s]  target RPS: 162
+[trace     8s / 310s]  target RPS: 151
+[trace     9s / 310s]  target RPS: 143
+[trace    10s / 310s]  target RPS: 146
+[trace    11s / 310s]  target RPS: 153
+[trace    12s / 310s]  target RPS: 167
+[trace    13s / 310s]  target RPS: 192
+[trace    14s / 310s]  target RPS: 237
+[trace    15s / 310s]  target RPS: 260
+[trace    16s / 310s]  target RPS: 263
+[trace    17s / 310s]  target RPS: 302
+[trace    18s / 310s]  target RPS: 316
+[trace    19s / 310s]  target RPS: 340
+[trace    20s / 310s]  target RPS: 366
+[trace    21s / 310s]  target RPS: 394
+[trace    22s / 310s]  target RPS: 396
+[trace    23s / 310s]  target RPS: 389
+[trace    24s / 310s]  target RPS: 391
+[trace    25s / 310s]  target RPS: 382
+[trace    26s / 310s]  target RPS: 400
+[trace    27s / 310s]  target RPS: 380
+[trace    28s / 310s]  target RPS: 389
+[trace    29s / 310s]  target RPS: 394
+[trace    30s / 310s]  target RPS: 398
+[trace    31s / 310s]  target RPS: 408
+[trace    32s / 310s]  target RPS: 436
+[trace    33s / 310s]  target RPS: 433
+[trace    34s / 310s]  target RPS: 438
+[trace    35s / 310s]  target RPS: 478
+[trace    36s / 310s]  target RPS: 497
+[trace    37s / 310s]  target RPS: 520
+[trace    38s / 310s]  target RPS: 517
+[trace    39s / 310s]  target RPS: 527
+[trace    40s / 310s]  target RPS: 524
+[trace    41s / 310s]  target RPS: 524
+[trace    42s / 310s]  target RPS: 532
+[trace    43s / 310s]  target RPS: 480
+[trace    44s / 310s]  target RPS: 457
+[trace    45s / 310s]  target RPS: 408
+[trace    46s / 310s]  target RPS: 365
+[trace    47s / 310s]  target RPS: 314
+[trace    48s / 310s]  target RPS: 270
+[trace    49s / 310s]  target RPS: 234
+[trace    50s / 310s]  target RPS: 200
+[trace    51s / 310s]  target RPS: 176
+[trace    52s / 310s]  target RPS: 160
+[trace    53s / 310s]  target RPS: 157
+[trace    54s / 310s]  target RPS: 158
+[trace    55s / 310s]  target RPS: 172
+[trace    56s / 310s]  target RPS: 192
+[trace    57s / 310s]  target RPS: 232
+[trace    58s / 310s]  target RPS: 253
+[trace    59s / 310s]  target RPS: 281
+[trace    60s / 310s]  target RPS: 298
+[trace    61s / 310s]  target RPS: 317
+[trace    62s / 310s]  target RPS: 342
+[trace    63s / 310s]  target RPS: 365
+[trace    64s / 310s]  target RPS: 403
+[trace    65s / 310s]  target RPS: 406
+[trace    66s / 310s]  target RPS: 412
+[trace    67s / 310s]  target RPS: 405
+[trace    68s / 310s]  target RPS: 405
+[trace    69s / 310s]  target RPS: 401
+[trace    70s / 310s]  target RPS: 417
+[trace    71s / 310s]  target RPS: 431
+[trace    72s / 310s]  target RPS: 434
+[trace    73s / 310s]  target RPS: 427
+[trace    74s / 310s]  target RPS: 410
+[trace    75s / 310s]  target RPS: 429
+[trace    76s / 310s]  target RPS: 440
+[trace    77s / 310s]  target RPS: 469
+[trace    78s / 310s]  target RPS: 518
+[trace    79s / 310s]  target RPS: 576
+[trace    80s / 310s]  target RPS: 599
+[trace    81s / 310s]  target RPS: 553
+[trace    82s / 310s]  target RPS: 572
+[trace    83s / 310s]  target RPS: 544
+[trace    84s / 310s]  target RPS: 550
+[trace    85s / 310s]  target RPS: 551
+[trace    86s / 310s]  target RPS: 536
+[trace    87s / 310s]  target RPS: 469
+[trace    88s / 310s]  target RPS: 419
+[trace    89s / 310s]  target RPS: 365
+[trace    90s / 310s]  target RPS: 310
+[trace    91s / 310s]  target RPS: 265
+[trace    92s / 310s]  target RPS: 227
+[trace    93s / 310s]  target RPS: 200
+[trace    94s / 310s]  target RPS: 176
+[trace    95s / 310s]  target RPS: 165
+[trace    96s / 310s]  target RPS: 160
+[trace    97s / 310s]  target RPS: 171
+[trace    98s / 310s]  target RPS: 192
+[trace    99s / 310s]  target RPS: 216
+[trace   100s / 310s]  target RPS: 249
+[trace   101s / 310s]  target RPS: 253
+[trace   102s / 310s]  target RPS: 256
+[trace   103s / 310s]  target RPS: 288
+[trace   104s / 310s]  target RPS: 403
+[trace   105s / 310s]  target RPS: 356
+[trace   106s / 310s]  target RPS: 361
+[trace   107s / 310s]  target RPS: 401
+[trace   108s / 310s]  target RPS: 466
+[trace   109s / 310s]  target RPS: 426
+[trace   110s / 310s]  target RPS: 398
+[trace   111s / 310s]  target RPS: 394
+[trace   112s / 310s]  target RPS: 382
+[trace   113s / 310s]  target RPS: 408
+[trace   114s / 310s]  target RPS: 382
+[trace   115s / 310s]  target RPS: 389
+[trace   116s / 310s]  target RPS: 394
+[trace   117s / 310s]  target RPS: 408
+[trace   118s / 310s]  target RPS: 454
+[trace   119s / 310s]  target RPS: 476
+[trace   120s / 310s]  target RPS: 497
+[trace   121s / 310s]  target RPS: 506
+[trace   122s / 310s]  target RPS: 544
+[trace   123s / 310s]  target RPS: 588
+[trace   124s / 310s]  target RPS: 583
+[trace   125s / 310s]  target RPS: 576
+[trace   126s / 310s]  target RPS: 574
+[trace   127s / 310s]  target RPS: 572
+[trace   128s / 310s]  target RPS: 555
+[trace   129s / 310s]  target RPS: 550
+[trace   130s / 310s]  target RPS: 483
+[trace   131s / 310s]  target RPS: 448
+[trace   132s / 310s]  target RPS: 387
+[trace   133s / 310s]  target RPS: 335
+[trace   134s / 310s]  target RPS: 288
+[trace   135s / 310s]  target RPS: 246
+[trace   136s / 310s]  target RPS: 227
+[trace   137s / 310s]  target RPS: 188
+[trace   138s / 310s]  target RPS: 171
+[trace   139s / 310s]  target RPS: 160
+[trace   140s / 310s]  target RPS: 169
+[trace   141s / 310s]  target RPS: 185
+[trace   142s / 310s]  target RPS: 211
+[trace   143s / 310s]  target RPS: 239
+[trace   144s / 310s]  target RPS: 262
+[trace   145s / 310s]  target RPS: 260
+[trace   146s / 310s]  target RPS: 260
+[trace   147s / 310s]  target RPS: 284
+[trace   148s / 310s]  target RPS: 296
+[trace   149s / 310s]  target RPS: 317
+[trace   150s / 310s]  target RPS: 344
+[trace   151s / 310s]  target RPS: 436
+[trace   152s / 310s]  target RPS: 457
+[trace   153s / 310s]  target RPS: 401
+[trace   154s / 310s]  target RPS: 386
+[trace   155s / 310s]  target RPS: 382
+[trace   156s / 310s]  target RPS: 394
+[trace   157s / 310s]  target RPS: 377
+[trace   158s / 310s]  target RPS: 379
+[trace   159s / 310s]  target RPS: 372
+[trace   160s / 310s]  target RPS: 391
+[trace   161s / 310s]  target RPS: 413
+[trace   162s / 310s]  target RPS: 447
+[trace   163s / 310s]  target RPS: 454
+[trace   164s / 310s]  target RPS: 466
+[trace   165s / 310s]  target RPS: 489
+[trace   166s / 310s]  target RPS: 524
+[trace   167s / 310s]  target RPS: 541
+[trace   168s / 310s]  target RPS: 548
+[trace   169s / 310s]  target RPS: 567
+[trace   170s / 310s]  target RPS: 576
+[trace   171s / 310s]  target RPS: 578
+[trace   172s / 310s]  target RPS: 641
+[trace   173s / 310s]  target RPS: 693
+[trace   174s / 310s]  target RPS: 606
+[trace   175s / 310s]  target RPS: 513
+[trace   176s / 310s]  target RPS: 420
+[trace   177s / 310s]  target RPS: 344
+[trace   178s / 310s]  target RPS: 286
+[trace   179s / 310s]  target RPS: 241
+[trace   180s / 310s]  target RPS: 207
+[trace   181s / 310s]  target RPS: 185
+[trace   182s / 310s]  target RPS: 171
+[trace   183s / 310s]  target RPS: 169
+[trace   184s / 310s]  target RPS: 207
+[trace   185s / 310s]  target RPS: 216
+[trace   186s / 310s]  target RPS: 246
+[trace   187s / 310s]  target RPS: 268
+[trace   188s / 310s]  target RPS: 262
+[trace   189s / 310s]  target RPS: 260
+[trace   190s / 310s]  target RPS: 275
+[trace   191s / 310s]  target RPS: 307
+[trace   192s / 310s]  target RPS: 314
+[trace   193s / 310s]  target RPS: 337
+[trace   194s / 310s]  target RPS: 403
+[trace   195s / 310s]  target RPS: 450
+[trace   196s / 310s]  target RPS: 412
+[trace   197s / 310s]  target RPS: 393
+[trace   198s / 310s]  target RPS: 393
+[trace   199s / 310s]  target RPS: 387
+[trace   200s / 310s]  target RPS: 386
+[trace   201s / 310s]  target RPS: 384
+[trace   202s / 310s]  target RPS: 387
+[trace   203s / 310s]  target RPS: 393
+[trace   204s / 310s]  target RPS: 405
+[trace   205s / 310s]  target RPS: 441
+[trace   206s / 310s]  target RPS: 461
+[trace   207s / 310s]  target RPS: 487
+[trace   208s / 310s]  target RPS: 506
+[trace   209s / 310s]  target RPS: 550
+[trace   210s / 310s]  target RPS: 567
+[trace   211s / 310s]  target RPS: 565
+[trace   212s / 310s]  target RPS: 572
+[trace   213s / 310s]  target RPS: 578
+[trace   214s / 310s]  target RPS: 616
+[trace   215s / 310s]  target RPS: 618
+[trace   216s / 310s]  target RPS: 606
+[trace   217s / 310s]  target RPS: 515
+[trace   218s / 310s]  target RPS: 459
+[trace   219s / 310s]  target RPS: 396
+[trace   220s / 310s]  target RPS: 349
+[trace   221s / 310s]  target RPS: 298
+[trace   222s / 310s]  target RPS: 253
+[trace   223s / 310s]  target RPS: 221
+[trace   224s / 310s]  target RPS: 199
+[trace   225s / 310s]  target RPS: 179
+[trace   226s / 310s]  target RPS: 176
+[trace   227s / 310s]  target RPS: 188
+[trace   228s / 310s]  target RPS: 206
+[trace   229s / 310s]  target RPS: 230
+[trace   230s / 310s]  target RPS: 270
+[trace   231s / 310s]  target RPS: 272
+[trace   232s / 310s]  target RPS: 272
+[trace   233s / 310s]  target RPS: 267
+[trace   234s / 310s]  target RPS: 300
+[trace   235s / 310s]  target RPS: 310
+[trace   236s / 310s]  target RPS: 337
+[trace   237s / 310s]  target RPS: 372
+[trace   238s / 310s]  target RPS: 450
+[trace   239s / 310s]  target RPS: 429
+[trace   240s / 310s]  target RPS: 595
+[trace   241s / 310s]  target RPS: 691
+[trace   242s / 310s]  target RPS: 660
+[trace   243s / 310s]  target RPS: 651
+[trace   244s / 310s]  target RPS: 625
+[trace   245s / 310s]  target RPS: 635
+[trace   246s / 310s]  target RPS: 625
+[trace   247s / 310s]  target RPS: 641
+[trace   248s / 310s]  target RPS: 670
+[trace   249s / 310s]  target RPS: 689
+[trace   250s / 310s]  target RPS: 710
+[trace   251s / 310s]  target RPS: 593
+[trace   252s / 310s]  target RPS: 504
+[trace   253s / 310s]  target RPS: 518
+[trace   254s / 310s]  target RPS: 551
+[trace   255s / 310s]  target RPS: 553
+[trace   256s / 310s]  target RPS: 560
+[trace   257s / 310s]  target RPS: 565
+[trace   258s / 310s]  target RPS: 550
+[trace   259s / 310s]  target RPS: 548
+[trace   260s / 310s]  target RPS: 483
+[trace   261s / 310s]  target RPS: 431
+[trace   262s / 310s]  target RPS: 380
+[trace   263s / 310s]  target RPS: 337
+[trace   264s / 310s]  target RPS: 289
+[trace   265s / 310s]  target RPS: 251
+[trace   266s / 310s]  target RPS: 216
+[trace   267s / 310s]  target RPS: 192
+[trace   268s / 310s]  target RPS: 171
+[trace   269s / 310s]  target RPS: 165
+[trace   270s / 310s]  target RPS: 218
+[trace   271s / 310s]  target RPS: 310
+[trace   272s / 310s]  target RPS: 340
+[trace   273s / 310s]  target RPS: 365
+[trace   274s / 310s]  target RPS: 607
+[trace   275s / 310s]  target RPS: 744
+[trace   276s / 310s]  target RPS: 600
+[trace   277s / 310s]  target RPS: 277
+[trace   278s / 310s]  target RPS: 293
+[trace   279s / 310s]  target RPS: 312
+[trace   280s / 310s]  target RPS: 347
+[trace   281s / 310s]  target RPS: 543
+[trace   282s / 310s]  target RPS: 751
+[trace   283s / 310s]  target RPS: 656
+[trace   284s / 310s]  target RPS: 457
+[trace   285s / 310s]  target RPS: 386
+[trace   286s / 310s]  target RPS: 386
+[trace   287s / 310s]  target RPS: 377
+[trace   288s / 310s]  target RPS: 379
+[trace   289s / 310s]  target RPS: 372
+[trace   290s / 310s]  target RPS: 391
+[trace   291s / 310s]  target RPS: 413
+[trace   292s / 310s]  target RPS: 469
+[trace   293s / 310s]  target RPS: 473
+[trace   294s / 310s]  target RPS: 485
+[trace   295s / 310s]  target RPS: 508
+[trace   296s / 310s]  target RPS: 518
+[trace   297s / 310s]  target RPS: 551
+[trace   298s / 310s]  target RPS: 550
+[trace   299s / 310s]  target RPS: 578
+  Thread Stats   Avg      Stdev     99%   +/- Stdev
+    Latency     4.30ms    3.23ms  15.01ms   83.36%
+    Req/Sec    11.95     22.31    71.00     77.61%
+  113532 completed requests in 5.17m, 46.94MB read
+Completed Requests/sec (Throughput):    366.22
+Sent Requests/sec (Load):    414.71
+Transfer/sec:    155.05KB
