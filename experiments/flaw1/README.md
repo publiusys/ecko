@@ -11,3 +11,10 @@ Only then does your app stop struggling
 
 What the experiment shows: You'll see k6's P99 latency spike sharply right after the traffic ramp starts, then gradually recover as the new pods come online. The spike is the lag.
 ```
+
+### misc
+```
+export TARGET_URL=http://$(kubectl get svc app -n flaw1 -o jsonpath='{.spec.clusterIP}')
+export TARGET_URL=http://$(kubectl get svc app -n flaw1 -o jsonpath='{.spec.clusterIP}')
+export NAMESPACE=flaw1
+```
