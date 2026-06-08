@@ -1,0 +1,46 @@
+==========================================
+ STARTING EXPERIMENT RUN: 1 @ http://10.104.36.115
+==========================================
+--- Baseline: 10 req/s (1 minute) ---
+--- Spike: 60 req/s (3 minutes) ---
+--- Cool down: 10 req/s (1 minute) ---
+--- Traffic ramp finished. Monitoring HPA for an extra 5 minutes... ---
+RUN 1 COMPLETE! Output saved to folder: experiment_run_1
+------------------------------------------
+==========================================
+ STARTING EXPERIMENT RUN: 2 @ http://10.104.36.115
+==========================================
+--- Baseline: 10 req/s (1 minute) ---
+--- Spike: 60 req/s (3 minutes) ---
+--- Cool down: 10 req/s (1 minute) ---
+--- Traffic ramp finished. Monitoring HPA for an extra 5 minutes... ---
+RUN 2 COMPLETE! Output saved to folder: experiment_run_2
+------------------------------------------
+==========================================
+ STARTING EXPERIMENT RUN: 3 @ http://10.104.36.115
+==========================================
+--- Baseline: 10 req/s (1 minute) ---
+--- Spike: 60 req/s (3 minutes) ---
+--- Cool down: 10 req/s (1 minute) ---
+--- Traffic ramp finished. Monitoring HPA for an extra 5 minutes... ---
+RUN 3 COMPLETE! Output saved to folder: experiment_run_3
+------------------------------------------
+==========================================
+ STARTING EXPERIMENT RUN: 4 @ http://10.104.36.115
+==========================================
+--- Baseline: 10 req/s (1 minute) ---
+--- Spike: 60 req/s (3 minutes) ---
+--- Cool down: 10 req/s (1 minute) ---
+--- Traffic ramp finished. Monitoring HPA for an extra 5 minutes... ---
+RUN 4 COMPLETE! Output saved to folder: experiment_run_4
+------------------------------------------
+==========================================
+ STARTING EXPERIMENT RUN: 5 @ http://10.104.36.115
+==========================================
+--- Baseline: 10 req/s (1 minute) ---
+--- Spike: 60 req/s (3 minutes) ---
+--- Cool down: 10 req/s (1 minute) ---
+--- Traffic ramp finished. Monitoring HPA for an extra 5 minutes... ---
+RUN 5 COMPLETE! Output saved to folder: experiment_run_5
+------------------------------------------
+ALL RUNS COMPLETED SUCCESSFULLY.
