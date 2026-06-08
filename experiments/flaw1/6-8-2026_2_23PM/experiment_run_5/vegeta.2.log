@@ -1,0 +1,1598 @@
+Requests      [total, rate, throughput]         60, 60.05, 57.89
+Duration      [total, attack, wait]             1.036s, 999.198ms, 37.164ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  21.045ms, 45.451ms, 38.824ms, 83.419ms, 90.073ms, 104.724ms, 104.737ms
+Bytes In      [total, mean]                     120, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:60  
+Error Set:
+Requests      [total, rate, throughput]         115, 57.03, 56.43
+Duration      [total, attack, wait]             2.038s, 2.017s, 21.334ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  21.045ms, 55.396ms, 49.218ms, 94.848ms, 104.808ms, 143.344ms, 145.619ms
+Bytes In      [total, mean]                     230, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:115  
+Error Set:
+Requests      [total, rate, throughput]         174, 60.00, 56.97
+Duration      [total, attack, wait]             3.054s, 2.9s, 154.267ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  21.045ms, 77.905ms, 60.186ms, 180ms, 208.133ms, 238.517ms, 238.546ms
+Bytes In      [total, mean]                     348, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:174  
+Error Set:
+Requests      [total, rate, throughput]         232, 58.99, 57.48
+Duration      [total, attack, wait]             4.036s, 3.933s, 103.611ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  21.045ms, 88.818ms, 67.265ms, 207.956ms, 212.336ms, 254.443ms, 255.192ms
+Bytes In      [total, mean]                     464, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:232  
+Error Set:
+Requests      [total, rate, throughput]         292, 58.21, 57.93
+Duration      [total, attack, wait]             5.041s, 5.016s, 24.879ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  21.045ms, 109.362ms, 70.515ms, 208.064ms, 220.922ms, 790.894ms, 2.246s
+Bytes In      [total, mean]                     584, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:292  
+Error Set:
+Requests      [total, rate, throughput]         349, 57.85, 57.65
+Duration      [total, attack, wait]             6.054s, 6.033s, 21.236ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  21.045ms, 118.559ms, 76.158ms, 208.033ms, 221.018ms, 1.18s, 2.246s
+Bytes In      [total, mean]                     698, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:349  
+Error Set:
+Requests      [total, rate, throughput]         409, 58.85, 58.13
+Duration      [total, attack, wait]             7.036s, 6.95s, 86.644ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  21.045ms, 136.758ms, 87.076ms, 208.167ms, 228.116ms, 2.142s, 2.325s
+Bytes In      [total, mean]                     818, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:409  
+Error Set:
+Requests      [total, rate, throughput]         467, 58.38, 58.11
+Duration      [total, attack, wait]             8.036s, 8s, 36.69ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  21.045ms, 150.015ms, 98.394ms, 213.358ms, 237.305ms, 1.988s, 2.325s
+Bytes In      [total, mean]                     934, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:467  
+Error Set:
+Requests      [total, rate, throughput]         528, 59.44, 58.43
+Duration      [total, attack, wait]             9.036s, 8.883s, 153.184ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  21.045ms, 159.193ms, 101.756ms, 218.627ms, 247.499ms, 1.437s, 2.325s
+Bytes In      [total, mean]                     1056, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:528  
+Error Set:
+Requests      [total, rate, throughput]         588, 59.50, 58.59
+Duration      [total, attack, wait]             10.036s, 9.883s, 153.321ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  21.045ms, 170.785ms, 114.066ms, 219.958ms, 252.966ms, 1.798s, 2.325s
+Bytes In      [total, mean]                     1176, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:588  
+Error Set:
+Requests      [total, rate, throughput]         648, 59.54, 58.72
+Duration      [total, attack, wait]             11.036s, 10.883s, 153.041ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  21.045ms, 179.339ms, 123.939ms, 220.422ms, 374.679ms, 2.141s, 2.325s
+Bytes In      [total, mean]                     1296, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:648  
+Error Set:
+Requests      [total, rate, throughput]         709, 59.25, 58.91
+Duration      [total, attack, wait]             12.036s, 11.966s, 70.417ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  21.045ms, 182.814ms, 127.198ms, 220.598ms, 446.657ms, 1.691s, 2.325s
+Bytes In      [total, mean]                     1418, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:709  
+Error Set:
+Requests      [total, rate, throughput]         765, 59.00, 58.68
+Duration      [total, attack, wait]             13.036s, 12.967s, 69.451ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  21.045ms, 186.294ms, 128.056ms, 220.908ms, 468.75ms, 2.034s, 2.325s
+Bytes In      [total, mean]                     1530, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:765  
+Error Set:
+Requests      [total, rate, throughput]         825, 59.57, 58.78
+Duration      [total, attack, wait]             14.036s, 13.85s, 186.851ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  21.045ms, 194.555ms, 129.969ms, 223.092ms, 1.085s, 2.187s, 2.325s
+Bytes In      [total, mean]                     1650, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:825  
+Error Set:
+Requests      [total, rate, throughput]         885, 59.53, 58.86
+Duration      [total, attack, wait]             15.036s, 14.867s, 169.312ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  21.045ms, 201.668ms, 136.354ms, 228.849ms, 1.111s, 2.227s, 2.325s
+Bytes In      [total, mean]                     1770, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:885  
+Error Set:
+Requests      [total, rate, throughput]         945, 59.12, 58.93
+Duration      [total, attack, wait]             16.036s, 15.983s, 52.807ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  21.045ms, 206.978ms, 137.234ms, 231.599ms, 1.144s, 2.237s, 3.273s
+Bytes In      [total, mean]                     1890, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:945  
+Error Set:
+Requests      [total, rate, throughput]         1003, 59.41, 58.87
+Duration      [total, attack, wait]             17.036s, 16.883s, 153.214ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.898ms, 212.453ms, 138.428ms, 233.3ms, 1.171s, 2.222s, 3.273s
+Bytes In      [total, mean]                     2006, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1003  
+Error Set:
+Requests      [total, rate, throughput]         1063, 59.16, 58.94
+Duration      [total, attack, wait]             18.036s, 17.967s, 69.677ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.898ms, 222.73ms, 141.861ms, 235.478ms, 1.193s, 2.239s, 3.273s
+Bytes In      [total, mean]                     2126, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1063  
+Error Set:
+Requests      [total, rate, throughput]         1124, 59.26, 59.04
+Duration      [total, attack, wait]             19.036s, 18.967s, 69.592ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.898ms, 224.932ms, 142.119ms, 237.776ms, 1.198s, 2.238s, 3.273s
+Bytes In      [total, mean]                     2248, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1124  
+Error Set:
+Requests      [total, rate, throughput]         1184, 59.25, 59.09
+Duration      [total, attack, wait]             20.036s, 19.984s, 52.588ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.898ms, 225.987ms, 140.945ms, 239.304ms, 1.204s, 2.222s, 3.273s
+Bytes In      [total, mean]                     2368, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1184  
+Error Set:
+Requests      [total, rate, throughput]         1240, 59.24, 58.95
+Duration      [total, attack, wait]             21.036s, 20.933s, 103.84ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.898ms, 228.715ms, 141.352ms, 240.92ms, 1.215s, 2.233s, 3.273s
+Bytes In      [total, mean]                     2480, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1240  
+Error Set:
+Requests      [total, rate, throughput]         1300, 59.54, 58.99
+Duration      [total, attack, wait]             22.036s, 21.833s, 203.688ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.898ms, 239.183ms, 141.947ms, 248.774ms, 1.223s, 2.259s, 3.583s
+Bytes In      [total, mean]                     2600, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1300  
+Error Set:
+Requests      [total, rate, throughput]         1370, 59.57, 58.91
+Duration      [total, attack, wait]             23.036s, 22.999s, 37.092ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  453.119µs, 246.959ms, 142.685ms, 249.172ms, 1.225s, 2.265s, 3.583s
+Bytes In      [total, mean]                     2714, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.05%
+Status Codes  [code:count]                      0:13  200:1357  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         1442, 60.04, 59.45
+Duration      [total, attack, wait]             24.037s, 24.016s, 21.1ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  453.119µs, 244.504ms, 138.462ms, 249.339ms, 1.224s, 2.263s, 3.583s
+Bytes In      [total, mean]                     2858, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.10%
+Status Codes  [code:count]                      0:13  200:1429  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         1502, 60.04, 59.46
+Duration      [total, attack, wait]             25.041s, 25.017s, 24.328ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  453.119µs, 235.717ms, 130.849ms, 248.98ms, 1.223s, 2.261s, 3.583s
+Bytes In      [total, mean]                     2978, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.13%
+Status Codes  [code:count]                      0:13  200:1489  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         1561, 60.04, 59.48
+Duration      [total, attack, wait]             26.025s, 26s, 24.985ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  453.119µs, 227.708ms, 124.806ms, 248.025ms, 1.222s, 2.258s, 3.583s
+Bytes In      [total, mean]                     3096, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.17%
+Status Codes  [code:count]                      0:13  200:1548  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         1622, 60.04, 59.50
+Duration      [total, attack, wait]             27.041s, 27.017s, 24.568ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  453.119µs, 220.014ms, 119.426ms, 241.532ms, 1.215s, 2.256s, 3.583s
+Bytes In      [total, mean]                     3218, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.20%
+Status Codes  [code:count]                      0:13  200:1609  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         1681, 60.00, 59.49
+Duration      [total, attack, wait]             28.038s, 28.017s, 21.129ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  453.119µs, 213.172ms, 110.077ms, 237.203ms, 1.207s, 2.254s, 3.583s
+Bytes In      [total, mean]                     3336, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.23%
+Status Codes  [code:count]                      0:13  200:1668  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         1741, 60.00, 59.51
+Duration      [total, attack, wait]             29.038s, 29.016s, 21.165ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  453.119µs, 206.711ms, 104.743ms, 234.593ms, 1.198s, 2.25s, 3.583s
+Bytes In      [total, mean]                     3456, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.25%
+Status Codes  [code:count]                      0:13  200:1728  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         1802, 60.03, 59.56
+Duration      [total, attack, wait]             30.038s, 30.017s, 21.16ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  453.119µs, 200.621ms, 95.306ms, 233.731ms, 1.19s, 2.246s, 3.583s
+Bytes In      [total, mean]                     3578, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.28%
+Status Codes  [code:count]                      0:13  200:1789  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         1862, 60.03, 59.57
+Duration      [total, attack, wait]             31.037s, 31.016s, 20.967ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  453.119µs, 194.985ms, 89.528ms, 233.187ms, 1.182s, 2.241s, 3.583s
+Bytes In      [total, mean]                     3698, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.30%
+Status Codes  [code:count]                      0:13  200:1849  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         1922, 60.03, 59.58
+Duration      [total, attack, wait]             32.041s, 32.016s, 25.042ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  453.119µs, 189.626ms, 83.728ms, 232.503ms, 1.174s, 2.236s, 3.583s
+Bytes In      [total, mean]                     3818, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.32%
+Status Codes  [code:count]                      0:13  200:1909  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         1980, 59.94, 59.51
+Duration      [total, attack, wait]             33.054s, 33.033s, 21.24ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  453.119µs, 184.939ms, 76.938ms, 231.677ms, 1.166s, 2.232s, 3.583s
+Bytes In      [total, mean]                     3934, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.34%
+Status Codes  [code:count]                      0:13  200:1967  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         2042, 60.03, 59.61
+Duration      [total, attack, wait]             34.038s, 34.017s, 21.097ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  453.119µs, 180.273ms, 72.727ms, 230.696ms, 1.155s, 2.227s, 3.583s
+Bytes In      [total, mean]                     4058, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.36%
+Status Codes  [code:count]                      0:13  200:2029  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         2102, 60.03, 59.62
+Duration      [total, attack, wait]             35.039s, 35.017s, 22.828ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  453.119µs, 175.901ms, 68.72ms, 226.927ms, 1.14s, 2.223s, 3.583s
+Bytes In      [total, mean]                     4178, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.38%
+Status Codes  [code:count]                      0:13  200:2089  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         2161, 60.03, 59.63
+Duration      [total, attack, wait]             36.025s, 36s, 24.83ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  453.119µs, 171.772ms, 63.875ms, 223.222ms, 1.126s, 2.215s, 3.583s
+Bytes In      [total, mean]                     4296, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.40%
+Status Codes  [code:count]                      0:13  200:2148  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         2221, 60.03, 59.63
+Duration      [total, attack, wait]             37.03s, 37s, 30.525ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  453.119µs, 167.909ms, 59.258ms, 220.726ms, 1.111s, 2.196s, 3.583s
+Bytes In      [total, mean]                     4416, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.41%
+Status Codes  [code:count]                      0:13  200:2208  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         2282, 60.03, 59.52
+Duration      [total, attack, wait]             38.038s, 38.017s, 21.071ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 163.989ms, 54.693ms, 220.593ms, 1.067s, 2.176s, 3.583s
+Bytes In      [total, mean]                     4528, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.21%
+Status Codes  [code:count]                      0:18  200:2264  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         2343, 60.03, 59.10
+Duration      [total, attack, wait]             39.054s, 39.033s, 21.36ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 160.204ms, 51.813ms, 220.46ms, 1.023s, 2.156s, 3.583s
+Bytes In      [total, mean]                     4616, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.51%
+Status Codes  [code:count]                      0:35  200:2308  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         2401, 60.03, 59.09
+Duration      [total, attack, wait]             40.025s, 40s, 25.269ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 156.882ms, 47.529ms, 220.405ms, 980.718ms, 2.137s, 3.583s
+Bytes In      [total, mean]                     4730, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.50%
+Status Codes  [code:count]                      0:36  200:2365  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         2461, 60.02, 59.11
+Duration      [total, attack, wait]             41.025s, 41s, 24.757ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 153.586ms, 44.076ms, 220.367ms, 934.735ms, 2.118s, 3.583s
+Bytes In      [total, mean]                     4850, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.54%
+Status Codes  [code:count]                      0:36  200:2425  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         2522, 60.02, 59.14
+Duration      [total, attack, wait]             42.037s, 42.016s, 21.1ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 150.415ms, 41.228ms, 220.33ms, 739.534ms, 2.098s, 3.583s
+Bytes In      [total, mean]                     4972, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.57%
+Status Codes  [code:count]                      0:36  200:2486  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         2582, 60.02, 59.16
+Duration      [total, attack, wait]             43.037s, 43.016s, 21.188ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 147.42ms, 38.413ms, 220.295ms, 547.534ms, 2.079s, 3.583s
+Bytes In      [total, mean]                     5092, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.61%
+Status Codes  [code:count]                      0:36  200:2546  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         2642, 60.02, 59.18
+Duration      [total, attack, wait]             44.038s, 44.017s, 21.253ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 144.58ms, 35.984ms, 220.065ms, 355.533ms, 2.059s, 3.583s
+Bytes In      [total, mean]                     5212, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.64%
+Status Codes  [code:count]                      0:36  200:2606  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         2702, 60.02, 59.20
+Duration      [total, attack, wait]             45.038s, 45.016s, 21.294ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 141.858ms, 32.688ms, 219.599ms, 287.744ms, 2.01s, 3.583s
+Bytes In      [total, mean]                     5332, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.67%
+Status Codes  [code:count]                      0:36  200:2666  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         2760, 60.02, 59.18
+Duration      [total, attack, wait]             46.032s, 45.983s, 49.4ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 139.364ms, 29.997ms, 218.999ms, 273.672ms, 1.958s, 3.583s
+Bytes In      [total, mean]                     5448, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.70%
+Status Codes  [code:count]                      0:36  200:2724  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         2822, 60.02, 59.23
+Duration      [total, attack, wait]             47.038s, 47.017s, 21.057ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 136.786ms, 27.521ms, 217.9ms, 258.63ms, 1.902s, 3.583s
+Bytes In      [total, mean]                     5572, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.72%
+Status Codes  [code:count]                      0:36  200:2786  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         2882, 60.02, 59.25
+Duration      [total, attack, wait]             48.038s, 48.017s, 20.935ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 134.414ms, 26.168ms, 216.837ms, 249.131ms, 1.848s, 3.583s
+Bytes In      [total, mean]                     5692, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.75%
+Status Codes  [code:count]                      0:36  200:2846  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         2942, 60.02, 59.26
+Duration      [total, attack, wait]             49.037s, 49.016s, 21.254ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 132.116ms, 25.325ms, 216.159ms, 248.368ms, 1.794s, 3.583s
+Bytes In      [total, mean]                     5812, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.78%
+Status Codes  [code:count]                      0:36  200:2906  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         3002, 60.02, 59.28
+Duration      [total, attack, wait]             50.038s, 50.017s, 20.999ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 129.913ms, 25.096ms, 215.587ms, 247.606ms, 1.74s, 3.583s
+Bytes In      [total, mean]                     5932, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.80%
+Status Codes  [code:count]                      0:36  200:2966  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         3062, 60.02, 59.29
+Duration      [total, attack, wait]             51.038s, 51.017s, 21.091ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 127.79ms, 24.889ms, 214.678ms, 251.936ms, 1.687s, 3.583s
+Bytes In      [total, mean]                     6052, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.82%
+Status Codes  [code:count]                      0:36  200:3026  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         3122, 60.02, 59.30
+Duration      [total, attack, wait]             52.037s, 52.016s, 21.41ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 125.749ms, 24.745ms, 212.913ms, 248.344ms, 1.633s, 3.583s
+Bytes In      [total, mean]                     6172, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.85%
+Status Codes  [code:count]                      0:36  200:3086  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         3181, 60.02, 59.30
+Duration      [total, attack, wait]             53.032s, 52.999s, 32.841ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 123.829ms, 24.635ms, 211.178ms, 245.095ms, 1.58s, 3.583s
+Bytes In      [total, mean]                     6290, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.87%
+Status Codes  [code:count]                      0:36  200:3145  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         3241, 60.02, 59.32
+Duration      [total, attack, wait]             54.025s, 53.999s, 25.444ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 121.969ms, 24.533ms, 209.413ms, 243.046ms, 1.55s, 3.583s
+Bytes In      [total, mean]                     6410, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.89%
+Status Codes  [code:count]                      0:36  200:3205  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         3302, 60.02, 59.34
+Duration      [total, attack, wait]             55.038s, 55.017s, 21.146ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 120.126ms, 24.398ms, 208.643ms, 240.963ms, 1.531s, 3.583s
+Bytes In      [total, mean]                     6532, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.91%
+Status Codes  [code:count]                      0:36  200:3266  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         3362, 60.02, 59.35
+Duration      [total, attack, wait]             56.038s, 56.016s, 21.161ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 118.368ms, 24.015ms, 208.06ms, 238.914ms, 1.512s, 3.583s
+Bytes In      [total, mean]                     6652, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.93%
+Status Codes  [code:count]                      0:36  200:3326  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         3421, 60.02, 59.35
+Duration      [total, attack, wait]             57.03s, 57s, 30.538ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 116.721ms, 23.685ms, 207.487ms, 236.899ms, 1.493s, 3.583s
+Bytes In      [total, mean]                     6770, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.95%
+Status Codes  [code:count]                      0:36  200:3385  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         3482, 60.02, 59.38
+Duration      [total, attack, wait]             58.037s, 58.016s, 21.031ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 115.056ms, 22.983ms, 207.084ms, 234.817ms, 1.474s, 3.583s
+Bytes In      [total, mean]                     6892, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.97%
+Status Codes  [code:count]                      0:36  200:3446  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         3540, 60.02, 59.36
+Duration      [total, attack, wait]             59.032s, 58.983s, 49.15ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 113.559ms, 22.451ms, 207.02ms, 234.021ms, 1.456s, 3.583s
+Bytes In      [total, mean]                     7008, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.98%
+Status Codes  [code:count]                      0:36  200:3504  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         3602, 60.02, 59.39
+Duration      [total, attack, wait]             1m0s, 1m0s, 24.582ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 111.983ms, 21.767ms, 206.951ms, 233.74ms, 1.436s, 3.583s
+Bytes In      [total, mean]                     7132, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.00%
+Status Codes  [code:count]                      0:36  200:3566  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         3662, 60.02, 59.41
+Duration      [total, attack, wait]             1m1s, 1m1s, 21.108ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 110.498ms, 21.447ms, 206.716ms, 233.468ms, 1.417s, 3.583s
+Bytes In      [total, mean]                     7252, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.02%
+Status Codes  [code:count]                      0:36  200:3626  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         3722, 60.02, 59.42
+Duration      [total, attack, wait]             1m2s, 1m2s, 21.164ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 109.083ms, 21.361ms, 206.56ms, 233.196ms, 1.399s, 3.583s
+Bytes In      [total, mean]                     7372, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.03%
+Status Codes  [code:count]                      0:36  200:3686  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         3782, 60.02, 59.43
+Duration      [total, attack, wait]             1m3s, 1m3s, 21.043ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 107.694ms, 21.322ms, 206.403ms, 232.925ms, 1.38s, 3.583s
+Bytes In      [total, mean]                     7492, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.05%
+Status Codes  [code:count]                      0:36  200:3746  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         3842, 60.02, 59.43
+Duration      [total, attack, wait]             1m4s, 1m4s, 21.18ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 106.345ms, 21.304ms, 206.138ms, 232.518ms, 1.361s, 3.583s
+Bytes In      [total, mean]                     7612, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.06%
+Status Codes  [code:count]                      0:36  200:3806  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         3902, 60.02, 59.44
+Duration      [total, attack, wait]             1m5s, 1m5s, 21.141ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 105.04ms, 21.294ms, 205.439ms, 232.09ms, 1.353s, 3.583s
+Bytes In      [total, mean]                     7732, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.08%
+Status Codes  [code:count]                      0:36  200:3866  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         3962, 60.02, 59.45
+Duration      [total, attack, wait]             1m6s, 1m6s, 21.167ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 103.798ms, 21.287ms, 204.74ms, 231.662ms, 1.347s, 3.583s
+Bytes In      [total, mean]                     7852, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.09%
+Status Codes  [code:count]                      0:36  200:3926  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         4022, 60.02, 59.46
+Duration      [total, attack, wait]             1m7s, 1m7s, 24.737ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 102.571ms, 21.28ms, 204.041ms, 231.235ms, 1.341s, 3.583s
+Bytes In      [total, mean]                     7972, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.10%
+Status Codes  [code:count]                      0:36  200:3986  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         4082, 60.01, 59.47
+Duration      [total, attack, wait]             1m8s, 1m8s, 21.101ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 101.377ms, 21.275ms, 203.342ms, 230.759ms, 1.335s, 3.583s
+Bytes In      [total, mean]                     8092, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.12%
+Status Codes  [code:count]                      0:36  200:4046  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         4142, 60.01, 59.47
+Duration      [total, attack, wait]             1m9s, 1m9s, 24.695ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 100.225ms, 21.269ms, 202.37ms, 228.874ms, 1.329s, 3.583s
+Bytes In      [total, mean]                     8212, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.13%
+Status Codes  [code:count]                      0:36  200:4106  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         4202, 60.01, 59.48
+Duration      [total, attack, wait]             1m10s, 1m10s, 21.208ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 99.101ms, 21.267ms, 201.159ms, 226.99ms, 1.323s, 3.583s
+Bytes In      [total, mean]                     8332, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.14%
+Status Codes  [code:count]                      0:36  200:4166  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         4261, 60.01, 59.48
+Duration      [total, attack, wait]             1m11s, 1m11s, 30.326ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 98.031ms, 21.266ms, 199.968ms, 225.137ms, 1.318s, 3.583s
+Bytes In      [total, mean]                     8450, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.16%
+Status Codes  [code:count]                      0:36  200:4225  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         4322, 60.01, 59.50
+Duration      [total, attack, wait]             1m12s, 1m12s, 21.311ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 96.969ms, 21.262ms, 198.737ms, 223.222ms, 1.312s, 3.583s
+Bytes In      [total, mean]                     8572, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.17%
+Status Codes  [code:count]                      0:36  200:4286  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         4382, 60.01, 59.50
+Duration      [total, attack, wait]             1m13s, 1m13s, 21.131ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 95.943ms, 21.258ms, 197.283ms, 221.337ms, 1.306s, 3.583s
+Bytes In      [total, mean]                     8692, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.18%
+Status Codes  [code:count]                      0:36  200:4346  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         4442, 60.01, 59.51
+Duration      [total, attack, wait]             1m14s, 1m14s, 21.244ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 94.952ms, 21.255ms, 195.411ms, 220.726ms, 1.3s, 3.583s
+Bytes In      [total, mean]                     8812, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.19%
+Status Codes  [code:count]                      0:36  200:4406  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         4502, 60.01, 59.52
+Duration      [total, attack, wait]             1m15s, 1m15s, 21.165ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 93.99ms, 21.253ms, 193.539ms, 220.661ms, 1.294s, 3.583s
+Bytes In      [total, mean]                     8932, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.20%
+Status Codes  [code:count]                      0:36  200:4466  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         4562, 60.01, 59.52
+Duration      [total, attack, wait]             1m16s, 1m16s, 21.034ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 93.064ms, 21.253ms, 191.667ms, 220.612ms, 1.288s, 3.583s
+Bytes In      [total, mean]                     9052, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.21%
+Status Codes  [code:count]                      0:36  200:4526  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         4622, 60.01, 59.53
+Duration      [total, attack, wait]             1m17s, 1m17s, 24.094ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 92.148ms, 21.251ms, 190.614ms, 220.579ms, 1.282s, 3.583s
+Bytes In      [total, mean]                     9172, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.22%
+Status Codes  [code:count]                      0:36  200:4586  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         4682, 60.01, 59.54
+Duration      [total, attack, wait]             1m18s, 1m18s, 21.191ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 91.249ms, 21.247ms, 189.911ms, 220.545ms, 1.276s, 3.583s
+Bytes In      [total, mean]                     9292, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.23%
+Status Codes  [code:count]                      0:36  200:4646  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         4742, 60.01, 59.54
+Duration      [total, attack, wait]             1m19s, 1m19s, 21.295ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 90.378ms, 21.245ms, 189.209ms, 220.511ms, 1.27s, 3.583s
+Bytes In      [total, mean]                     9412, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.24%
+Status Codes  [code:count]                      0:36  200:4706  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         4802, 60.01, 59.54
+Duration      [total, attack, wait]             1m20s, 1m20s, 25.142ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 89.52ms, 21.242ms, 188.507ms, 220.478ms, 1.264s, 3.583s
+Bytes In      [total, mean]                     9532, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.25%
+Status Codes  [code:count]                      0:36  200:4766  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         4862, 60.01, 59.55
+Duration      [total, attack, wait]             1m21s, 1m21s, 21.146ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 88.679ms, 21.239ms, 187.935ms, 220.444ms, 1.262s, 3.583s
+Bytes In      [total, mean]                     9652, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.26%
+Status Codes  [code:count]                      0:36  200:4826  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         4922, 60.01, 59.56
+Duration      [total, attack, wait]             1m22s, 1m22s, 24.778ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 87.863ms, 21.238ms, 186.705ms, 220.411ms, 1.261s, 3.583s
+Bytes In      [total, mean]                     9772, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.27%
+Status Codes  [code:count]                      0:36  200:4886  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         4982, 60.01, 59.56
+Duration      [total, attack, wait]             1m23s, 1m23s, 21.144ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 87.073ms, 21.237ms, 185.12ms, 220.377ms, 1.259s, 3.583s
+Bytes In      [total, mean]                     9892, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.28%
+Status Codes  [code:count]                      0:36  200:4946  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         5041, 60.01, 59.56
+Duration      [total, attack, wait]             1m24s, 1m24s, 28.208ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 86.311ms, 21.237ms, 183.561ms, 220.344ms, 1.257s, 3.583s
+Bytes In      [total, mean]                     10010, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.29%
+Status Codes  [code:count]                      0:36  200:5005  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         5102, 60.01, 59.57
+Duration      [total, attack, wait]             1m25s, 1m25s, 25.113ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 85.544ms, 21.236ms, 181.949ms, 220.285ms, 1.256s, 3.583s
+Bytes In      [total, mean]                     10132, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.29%
+Status Codes  [code:count]                      0:36  200:5066  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         5161, 60.01, 59.58
+Duration      [total, attack, wait]             1m26s, 1m26s, 23.971ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 84.828ms, 21.236ms, 180.39ms, 220.13ms, 1.254s, 3.583s
+Bytes In      [total, mean]                     10250, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.30%
+Status Codes  [code:count]                      0:36  200:5125  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         5222, 60.01, 59.58
+Duration      [total, attack, wait]             1m27s, 1m27s, 21.117ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 84.094ms, 21.234ms, 178.779ms, 219.969ms, 1.252s, 3.583s
+Bytes In      [total, mean]                     10372, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.31%
+Status Codes  [code:count]                      0:36  200:5186  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         5282, 60.01, 59.59
+Duration      [total, attack, wait]             1m28s, 1m28s, 21.039ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 83.389ms, 21.232ms, 177.627ms, 219.812ms, 1.25s, 3.583s
+Bytes In      [total, mean]                     10492, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.32%
+Status Codes  [code:count]                      0:36  200:5246  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         5342, 60.01, 59.59
+Duration      [total, attack, wait]             1m29s, 1m29s, 21.226ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 82.714ms, 21.23ms, 176.499ms, 219.654ms, 1.249s, 3.583s
+Bytes In      [total, mean]                     10612, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.33%
+Status Codes  [code:count]                      0:36  200:5306  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         5402, 60.01, 59.60
+Duration      [total, attack, wait]             1m30s, 1m30s, 21.134ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 82.034ms, 21.228ms, 175.37ms, 219.496ms, 1.247s, 3.583s
+Bytes In      [total, mean]                     10732, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.33%
+Status Codes  [code:count]                      0:36  200:5366  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         5462, 60.01, 59.60
+Duration      [total, attack, wait]             1m31s, 1m31s, 21.047ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 81.372ms, 21.226ms, 174.241ms, 219.338ms, 1.245s, 3.583s
+Bytes In      [total, mean]                     10852, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.34%
+Status Codes  [code:count]                      0:36  200:5426  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         5522, 60.01, 59.61
+Duration      [total, attack, wait]             1m32s, 1m32s, 21.058ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 80.72ms, 21.224ms, 173.113ms, 219.025ms, 1.244s, 3.583s
+Bytes In      [total, mean]                     10972, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.35%
+Status Codes  [code:count]                      0:36  200:5486  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         5582, 60.01, 59.61
+Duration      [total, attack, wait]             1m33s, 1m33s, 21.034ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 80.102ms, 21.223ms, 171.984ms, 218.575ms, 1.242s, 3.583s
+Bytes In      [total, mean]                     11092, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.36%
+Status Codes  [code:count]                      0:36  200:5546  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         5642, 60.01, 59.61
+Duration      [total, attack, wait]             1m34s, 1m34s, 21.249ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 79.482ms, 21.222ms, 170.822ms, 218.125ms, 1.24s, 3.583s
+Bytes In      [total, mean]                     11212, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.36%
+Status Codes  [code:count]                      0:36  200:5606  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         5702, 60.01, 59.62
+Duration      [total, attack, wait]             1m35s, 1m35s, 21.2ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 78.874ms, 21.221ms, 169.407ms, 217.676ms, 1.239s, 3.583s
+Bytes In      [total, mean]                     11332, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.37%
+Status Codes  [code:count]                      0:36  200:5666  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         5761, 60.00, 59.61
+Duration      [total, attack, wait]             1m36s, 1m36s, 21.094ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 78.283ms, 21.219ms, 168.016ms, 217.234ms, 1.237s, 3.583s
+Bytes In      [total, mean]                     11450, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.38%
+Status Codes  [code:count]                      0:36  200:5725  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         5822, 60.01, 59.63
+Duration      [total, attack, wait]             1m37s, 1m37s, 21.077ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 77.706ms, 21.219ms, 166.577ms, 216.777ms, 1.236s, 3.583s
+Bytes In      [total, mean]                     11572, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.38%
+Status Codes  [code:count]                      0:36  200:5786  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         5882, 60.01, 59.63
+Duration      [total, attack, wait]             1m38s, 1m38s, 21.173ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 77.153ms, 21.218ms, 165.162ms, 216.327ms, 1.235s, 3.583s
+Bytes In      [total, mean]                     11692, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.39%
+Status Codes  [code:count]                      0:36  200:5846  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         5942, 60.01, 59.63
+Duration      [total, attack, wait]             1m39s, 1m39s, 21.122ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 76.598ms, 21.218ms, 163.747ms, 215.868ms, 1.234s, 3.583s
+Bytes In      [total, mean]                     11812, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.39%
+Status Codes  [code:count]                      0:36  200:5906  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         6002, 60.01, 59.64
+Duration      [total, attack, wait]             1m40s, 1m40s, 21.191ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 76.053ms, 21.217ms, 162.332ms, 215.146ms, 1.234s, 3.583s
+Bytes In      [total, mean]                     11932, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.40%
+Status Codes  [code:count]                      0:36  200:5966  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         6062, 60.01, 59.64
+Duration      [total, attack, wait]             1m41s, 1m41s, 21.207ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 75.515ms, 21.215ms, 160.917ms, 214.423ms, 1.233s, 3.583s
+Bytes In      [total, mean]                     12052, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.41%
+Status Codes  [code:count]                      0:36  200:6026  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         6122, 60.01, 59.64
+Duration      [total, attack, wait]             1m42s, 1m42s, 21.142ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 74.985ms, 21.214ms, 159.812ms, 213.701ms, 1.233s, 3.583s
+Bytes In      [total, mean]                     12172, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.41%
+Status Codes  [code:count]                      0:36  200:6086  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         6182, 60.01, 59.65
+Duration      [total, attack, wait]             1m43s, 1m43s, 21.143ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 74.466ms, 21.213ms, 158.899ms, 212.978ms, 1.232s, 3.583s
+Bytes In      [total, mean]                     12292, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.42%
+Status Codes  [code:count]                      0:36  200:6146  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         6242, 60.01, 59.65
+Duration      [total, attack, wait]             1m44s, 1m44s, 21.14ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 73.984ms, 21.212ms, 157.987ms, 212.256ms, 1.232s, 3.583s
+Bytes In      [total, mean]                     12412, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.42%
+Status Codes  [code:count]                      0:36  200:6206  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         6302, 60.01, 59.65
+Duration      [total, attack, wait]             1m45s, 1m45s, 21.208ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 73.488ms, 21.212ms, 157.075ms, 211.533ms, 1.231s, 3.583s
+Bytes In      [total, mean]                     12532, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.43%
+Status Codes  [code:count]                      0:36  200:6266  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         6362, 60.01, 59.66
+Duration      [total, attack, wait]             1m46s, 1m46s, 21.299ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 73.001ms, 21.211ms, 156.162ms, 210.811ms, 1.23s, 3.583s
+Bytes In      [total, mean]                     12652, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.43%
+Status Codes  [code:count]                      0:36  200:6326  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         6422, 60.01, 59.66
+Duration      [total, attack, wait]             1m47s, 1m47s, 25.142ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 72.521ms, 21.21ms, 155.237ms, 210.088ms, 1.23s, 3.583s
+Bytes In      [total, mean]                     12772, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.44%
+Status Codes  [code:count]                      0:36  200:6386  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         6482, 60.01, 59.66
+Duration      [total, attack, wait]             1m48s, 1m48s, 20.985ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 72.052ms, 21.21ms, 153.934ms, 209.365ms, 1.229s, 3.583s
+Bytes In      [total, mean]                     12892, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.44%
+Status Codes  [code:count]                      0:36  200:6446  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         6542, 60.01, 59.66
+Duration      [total, attack, wait]             1m49s, 1m49s, 27.795ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 71.59ms, 21.209ms, 152.63ms, 208.999ms, 1.229s, 3.583s
+Bytes In      [total, mean]                     13012, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.45%
+Status Codes  [code:count]                      0:36  200:6506  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         6602, 60.01, 59.67
+Duration      [total, attack, wait]             1m50s, 1m50s, 21.155ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 71.141ms, 21.209ms, 151.327ms, 208.785ms, 1.228s, 3.583s
+Bytes In      [total, mean]                     13132, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.45%
+Status Codes  [code:count]                      0:36  200:6566  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         6662, 60.01, 59.67
+Duration      [total, attack, wait]             1m51s, 1m51s, 21.149ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 70.695ms, 21.208ms, 150.023ms, 208.571ms, 1.228s, 3.583s
+Bytes In      [total, mean]                     13252, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.46%
+Status Codes  [code:count]                      0:36  200:6626  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         6721, 60.01, 59.67
+Duration      [total, attack, wait]             1m52s, 1m52s, 25.764ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 70.264ms, 21.207ms, 148.741ms, 208.36ms, 1.227s, 3.583s
+Bytes In      [total, mean]                     13370, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.46%
+Status Codes  [code:count]                      0:36  200:6685  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         6781, 60.01, 59.67
+Duration      [total, attack, wait]             1m53s, 1m53s, 32.999ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 69.839ms, 21.206ms, 147.456ms, 208.146ms, 1.226s, 3.583s
+Bytes In      [total, mean]                     13490, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.47%
+Status Codes  [code:count]                      0:36  200:6745  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         6841, 60.01, 59.68
+Duration      [total, attack, wait]             1m54s, 1m54s, 24.971ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 69.424ms, 21.206ms, 146.186ms, 207.932ms, 1.226s, 3.583s
+Bytes In      [total, mean]                     13610, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.47%
+Status Codes  [code:count]                      0:36  200:6805  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         6902, 60.01, 59.68
+Duration      [total, attack, wait]             1m55s, 1m55s, 20.986ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 69.001ms, 21.205ms, 144.896ms, 207.715ms, 1.225s, 3.583s
+Bytes In      [total, mean]                     13732, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.48%
+Status Codes  [code:count]                      0:36  200:6866  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         6962, 60.01, 59.69
+Duration      [total, attack, wait]             1m56s, 1m56s, 21.217ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 68.596ms, 21.204ms, 143.627ms, 207.501ms, 1.225s, 3.583s
+Bytes In      [total, mean]                     13852, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.48%
+Status Codes  [code:count]                      0:36  200:6926  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         7021, 60.01, 59.69
+Duration      [total, attack, wait]             1m57s, 1m57s, 24.1ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 68.208ms, 21.204ms, 142.379ms, 207.29ms, 1.224s, 3.583s
+Bytes In      [total, mean]                     13970, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.49%
+Status Codes  [code:count]                      0:36  200:6985  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         7082, 60.01, 59.69
+Duration      [total, attack, wait]             1m58s, 1m58s, 25.208ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 67.807ms, 21.204ms, 141.089ms, 207.073ms, 1.223s, 3.583s
+Bytes In      [total, mean]                     14092, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.49%
+Status Codes  [code:count]                      0:36  200:7046  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         7141, 60.00, 59.69
+Duration      [total, attack, wait]             1m59s, 1m59s, 21.257ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 67.426ms, 21.204ms, 139.841ms, 206.955ms, 1.223s, 3.583s
+Bytes In      [total, mean]                     14210, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.50%
+Status Codes  [code:count]                      0:36  200:7105  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         7202, 60.01, 59.70
+Duration      [total, attack, wait]             2m0s, 2m0s, 21.109ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 67.048ms, 21.204ms, 138.495ms, 206.876ms, 1.222s, 3.583s
+Bytes In      [total, mean]                     14332, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.50%
+Status Codes  [code:count]                      0:36  200:7166  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         7262, 60.01, 59.70
+Duration      [total, attack, wait]             2m1s, 2m1s, 21.083ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 66.688ms, 21.203ms, 137.073ms, 206.797ms, 1.222s, 3.583s
+Bytes In      [total, mean]                     14452, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.50%
+Status Codes  [code:count]                      0:36  200:7226  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         7321, 60.01, 59.70
+Duration      [total, attack, wait]             2m2s, 2m2s, 25.358ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 66.323ms, 21.203ms, 135.675ms, 206.72ms, 1.221s, 3.583s
+Bytes In      [total, mean]                     14570, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.51%
+Status Codes  [code:count]                      0:36  200:7285  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         7382, 60.01, 59.71
+Duration      [total, attack, wait]             2m3s, 2m3s, 21.063ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 65.956ms, 21.203ms, 134.23ms, 206.641ms, 1.22s, 3.583s
+Bytes In      [total, mean]                     14692, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.51%
+Status Codes  [code:count]                      0:36  200:7346  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         7442, 60.01, 59.71
+Duration      [total, attack, wait]             2m4s, 2m4s, 21.12ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 65.597ms, 21.202ms, 132.809ms, 206.563ms, 1.22s, 3.583s
+Bytes In      [total, mean]                     14812, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.52%
+Status Codes  [code:count]                      0:36  200:7406  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         7502, 60.01, 59.71
+Duration      [total, attack, wait]             2m5s, 2m5s, 25.297ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 65.25ms, 21.202ms, 131.387ms, 206.484ms, 1.219s, 3.583s
+Bytes In      [total, mean]                     14932, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.52%
+Status Codes  [code:count]                      0:36  200:7466  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         7561, 60.01, 59.71
+Duration      [total, attack, wait]             2m6s, 2m6s, 24.21ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 64.918ms, 21.201ms, 129.989ms, 206.407ms, 1.219s, 3.583s
+Bytes In      [total, mean]                     15050, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.52%
+Status Codes  [code:count]                      0:36  200:7525  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         7622, 60.01, 59.71
+Duration      [total, attack, wait]             2m7s, 2m7s, 21.141ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 64.575ms, 21.201ms, 128.544ms, 206.328ms, 1.218s, 3.583s
+Bytes In      [total, mean]                     15172, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.53%
+Status Codes  [code:count]                      0:36  200:7586  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         7682, 60.01, 59.71
+Duration      [total, attack, wait]             2m8s, 2m8s, 27.808ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 64.246ms, 21.2ms, 127.14ms, 206.15ms, 1.217s, 3.583s
+Bytes In      [total, mean]                     15292, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.53%
+Status Codes  [code:count]                      0:36  200:7646  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         7741, 60.01, 59.72
+Duration      [total, attack, wait]             2m9s, 2m9s, 25.313ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 63.93ms, 21.2ms, 125.893ms, 205.806ms, 1.217s, 3.583s
+Bytes In      [total, mean]                     15410, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.53%
+Status Codes  [code:count]                      0:36  200:7705  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         7802, 60.01, 59.72
+Duration      [total, attack, wait]             2m10s, 2m10s, 21.118ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 63.598ms, 21.199ms, 124.604ms, 205.451ms, 1.216s, 3.583s
+Bytes In      [total, mean]                     15532, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.54%
+Status Codes  [code:count]                      0:36  200:7766  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         7862, 60.01, 59.72
+Duration      [total, attack, wait]             2m11s, 2m11s, 21.217ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 63.277ms, 21.199ms, 123.336ms, 205.101ms, 1.216s, 3.583s
+Bytes In      [total, mean]                     15652, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.54%
+Status Codes  [code:count]                      0:36  200:7826  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         7922, 60.01, 59.73
+Duration      [total, attack, wait]             2m12s, 2m12s, 21.061ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 62.959ms, 21.198ms, 122.068ms, 204.752ms, 1.215s, 3.583s
+Bytes In      [total, mean]                     15772, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.55%
+Status Codes  [code:count]                      0:36  200:7886  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         7982, 60.01, 59.73
+Duration      [total, attack, wait]             2m13s, 2m13s, 21.201ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 62.649ms, 21.198ms, 120.8ms, 204.402ms, 1.214s, 3.583s
+Bytes In      [total, mean]                     15892, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.55%
+Status Codes  [code:count]                      0:36  200:7946  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         8042, 60.01, 59.73
+Duration      [total, attack, wait]             2m14s, 2m14s, 24.37ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 62.343ms, 21.197ms, 119.532ms, 204.052ms, 1.214s, 3.583s
+Bytes In      [total, mean]                     16012, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.55%
+Status Codes  [code:count]                      0:36  200:8006  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         8101, 60.01, 59.73
+Duration      [total, attack, wait]             2m15s, 2m15s, 23.997ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 62.052ms, 21.197ms, 118.285ms, 203.709ms, 1.213s, 3.583s
+Bytes In      [total, mean]                     16130, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.56%
+Status Codes  [code:count]                      0:36  200:8065  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         8162, 60.01, 59.73
+Duration      [total, attack, wait]             2m16s, 2m16s, 21.216ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 61.751ms, 21.197ms, 116.996ms, 203.353ms, 1.213s, 3.583s
+Bytes In      [total, mean]                     16252, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.56%
+Status Codes  [code:count]                      0:36  200:8126  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         8222, 60.01, 59.74
+Duration      [total, attack, wait]             2m17s, 2m17s, 21.157ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 61.456ms, 21.197ms, 115.728ms, 202.991ms, 1.212s, 3.583s
+Bytes In      [total, mean]                     16372, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.56%
+Status Codes  [code:count]                      0:36  200:8186  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         8282, 60.01, 59.74
+Duration      [total, attack, wait]             2m18s, 2m18s, 21.205ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 61.167ms, 21.197ms, 114.423ms, 202.267ms, 1.21s, 3.583s
+Bytes In      [total, mean]                     16492, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.57%
+Status Codes  [code:count]                      0:36  200:8246  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         8341, 60.01, 59.73
+Duration      [total, attack, wait]             2m19s, 2m19s, 32.553ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 60.896ms, 21.196ms, 112.995ms, 201.555ms, 1.208s, 3.583s
+Bytes In      [total, mean]                     16610, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.57%
+Status Codes  [code:count]                      0:36  200:8305  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         8402, 60.01, 59.74
+Duration      [total, attack, wait]             2m20s, 2m20s, 21.157ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 60.621ms, 21.196ms, 111.518ms, 199.997ms, 1.207s, 3.583s
+Bytes In      [total, mean]                     16732, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.57%
+Status Codes  [code:count]                      0:36  200:8366  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         8462, 60.01, 59.74
+Duration      [total, attack, wait]             2m21s, 2m21s, 21.189ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 60.346ms, 21.196ms, 110.066ms, 199.356ms, 1.205s, 3.583s
+Bytes In      [total, mean]                     16852, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.57%
+Status Codes  [code:count]                      0:36  200:8426  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         8522, 60.01, 59.74
+Duration      [total, attack, wait]             2m22s, 2m22s, 21.215ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 60.072ms, 21.196ms, 108.614ms, 198.714ms, 1.203s, 3.583s
+Bytes In      [total, mean]                     16972, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.58%
+Status Codes  [code:count]                      0:36  200:8486  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         8582, 60.01, 59.75
+Duration      [total, attack, wait]             2m23s, 2m23s, 21.206ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 59.804ms, 21.196ms, 107.162ms, 198.072ms, 1.202s, 3.583s
+Bytes In      [total, mean]                     17092, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.58%
+Status Codes  [code:count]                      0:36  200:8546  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         8641, 60.01, 59.75
+Duration      [total, attack, wait]             2m24s, 2m24s, 24.281ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 59.557ms, 21.195ms, 105.734ms, 197.441ms, 1.2s, 3.583s
+Bytes In      [total, mean]                     17210, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.58%
+Status Codes  [code:count]                      0:36  200:8605  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         8702, 60.01, 59.75
+Duration      [total, attack, wait]             2m25s, 2m25s, 24.049ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 59.291ms, 21.195ms, 104.257ms, 196.789ms, 1.198s, 3.583s
+Bytes In      [total, mean]                     17332, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.59%
+Status Codes  [code:count]                      0:36  200:8666  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         8762, 60.01, 59.75
+Duration      [total, attack, wait]             2m26s, 2m26s, 21.146ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 59.034ms, 21.195ms, 102.805ms, 196.147ms, 1.197s, 3.583s
+Bytes In      [total, mean]                     17452, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.59%
+Status Codes  [code:count]                      0:36  200:8726  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         8822, 60.01, 59.75
+Duration      [total, attack, wait]             2m27s, 2m27s, 21.21ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 58.777ms, 21.194ms, 101.353ms, 195.505ms, 1.195s, 3.583s
+Bytes In      [total, mean]                     17572, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.59%
+Status Codes  [code:count]                      0:36  200:8786  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         8882, 60.01, 59.75
+Duration      [total, attack, wait]             2m28s, 2m28s, 23.902ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 58.535ms, 21.194ms, 99.906ms, 194.863ms, 1.194s, 3.583s
+Bytes In      [total, mean]                     17692, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.59%
+Status Codes  [code:count]                      0:36  200:8846  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         8942, 60.01, 59.76
+Duration      [total, attack, wait]             2m29s, 2m29s, 24.175ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 58.288ms, 21.194ms, 98.619ms, 194.222ms, 1.192s, 3.583s
+Bytes In      [total, mean]                     17812, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.60%
+Status Codes  [code:count]                      0:36  200:8906  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         9001, 60.01, 59.75
+Duration      [total, attack, wait]             2m30s, 2m30s, 32.115ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 58.047ms, 21.194ms, 97.353ms, 193.593ms, 1.19s, 3.583s
+Bytes In      [total, mean]                     17930, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.60%
+Status Codes  [code:count]                      0:36  200:8965  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         9062, 60.01, 59.76
+Duration      [total, attack, wait]             2m31s, 2m31s, 21.104ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 57.806ms, 21.193ms, 96.045ms, 193.116ms, 1.189s, 3.583s
+Bytes In      [total, mean]                     18052, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.60%
+Status Codes  [code:count]                      0:36  200:9026  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         9121, 60.01, 59.76
+Duration      [total, attack, wait]             2m32s, 2m32s, 24.578ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 57.57ms, 21.193ms, 94.779ms, 192.654ms, 1.187s, 3.583s
+Bytes In      [total, mean]                     18170, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.61%
+Status Codes  [code:count]                      0:36  200:9085  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         9181, 60.01, 59.76
+Duration      [total, attack, wait]             2m33s, 2m33s, 25.042ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 57.336ms, 21.193ms, 93.492ms, 192.185ms, 1.185s, 3.583s
+Bytes In      [total, mean]                     18290, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.61%
+Status Codes  [code:count]                      0:36  200:9145  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         9242, 60.01, 59.76
+Duration      [total, attack, wait]             2m34s, 2m34s, 21.181ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 57.105ms, 21.192ms, 92.183ms, 191.707ms, 1.184s, 3.583s
+Bytes In      [total, mean]                     18412, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.61%
+Status Codes  [code:count]                      0:36  200:9206  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         9302, 60.01, 59.77
+Duration      [total, attack, wait]             2m35s, 2m35s, 21.072ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 56.892ms, 21.192ms, 90.896ms, 190.78ms, 1.182s, 3.583s
+Bytes In      [total, mean]                     18532, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.61%
+Status Codes  [code:count]                      0:36  200:9266  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         9362, 60.01, 59.77
+Duration      [total, attack, wait]             2m36s, 2m36s, 21.15ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 56.672ms, 21.192ms, 89.608ms, 190.219ms, 1.18s, 3.583s
+Bytes In      [total, mean]                     18652, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.62%
+Status Codes  [code:count]                      0:36  200:9326  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         9422, 60.01, 59.77
+Duration      [total, attack, wait]             2m37s, 2m37s, 21.199ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 56.447ms, 21.191ms, 88.316ms, 189.658ms, 1.179s, 3.583s
+Bytes In      [total, mean]                     18772, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.62%
+Status Codes  [code:count]                      0:36  200:9386  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         9482, 60.01, 59.77
+Duration      [total, attack, wait]             2m38s, 2m38s, 25.439ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 56.225ms, 21.191ms, 87.018ms, 189.098ms, 1.177s, 3.583s
+Bytes In      [total, mean]                     18892, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.62%
+Status Codes  [code:count]                      0:36  200:9446  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         9542, 60.01, 59.77
+Duration      [total, attack, wait]             2m39s, 2m39s, 21.018ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 56.013ms, 21.191ms, 85.719ms, 188.537ms, 1.176s, 3.583s
+Bytes In      [total, mean]                     19012, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.62%
+Status Codes  [code:count]                      0:36  200:9506  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         9602, 60.01, 59.77
+Duration      [total, attack, wait]             2m40s, 2m40s, 21.121ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 55.799ms, 21.191ms, 84.421ms, 187.976ms, 1.155s, 3.583s
+Bytes In      [total, mean]                     19132, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.63%
+Status Codes  [code:count]                      0:36  200:9566  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         9662, 60.01, 59.77
+Duration      [total, attack, wait]             2m41s, 2m41s, 25.88ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 55.587ms, 21.19ms, 83.123ms, 187.416ms, 1.151s, 3.583s
+Bytes In      [total, mean]                     19252, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.63%
+Status Codes  [code:count]                      0:36  200:9626  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         9722, 60.01, 59.78
+Duration      [total, attack, wait]             2m42s, 2m42s, 25.119ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 55.377ms, 21.19ms, 81.824ms, 186.855ms, 1.147s, 3.583s
+Bytes In      [total, mean]                     19372, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.63%
+Status Codes  [code:count]                      0:36  200:9686  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         9782, 60.01, 59.78
+Duration      [total, attack, wait]             2m43s, 2m43s, 21.159ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 55.171ms, 21.189ms, 80.526ms, 186.295ms, 1.144s, 3.583s
+Bytes In      [total, mean]                     19492, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.63%
+Status Codes  [code:count]                      0:36  200:9746  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         9842, 60.01, 59.78
+Duration      [total, attack, wait]             2m44s, 2m44s, 21.098ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 54.969ms, 21.189ms, 79.227ms, 185.734ms, 1.14s, 3.583s
+Bytes In      [total, mean]                     19612, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.63%
+Status Codes  [code:count]                      0:36  200:9806  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         9902, 60.01, 59.78
+Duration      [total, attack, wait]             2m45s, 2m45s, 21.247ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 54.765ms, 21.189ms, 77.929ms, 185.173ms, 1.136s, 3.583s
+Bytes In      [total, mean]                     19732, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.64%
+Status Codes  [code:count]                      0:36  200:9866  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         9962, 60.01, 59.78
+Duration      [total, attack, wait]             2m46s, 2m46s, 20.983ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 54.57ms, 21.189ms, 76.648ms, 184.613ms, 1.133s, 3.583s
+Bytes In      [total, mean]                     19852, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.64%
+Status Codes  [code:count]                      0:36  200:9926  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         10022, 60.01, 59.78
+Duration      [total, attack, wait]             2m47s, 2m47s, 21.039ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 54.371ms, 21.188ms, 75.866ms, 184.052ms, 1.129s, 3.583s
+Bytes In      [total, mean]                     19972, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.64%
+Status Codes  [code:count]                      0:36  200:9986  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         10082, 60.01, 59.78
+Duration      [total, attack, wait]             2m48s, 2m48s, 21.24ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 54.183ms, 21.188ms, 75.099ms, 183.491ms, 1.125s, 3.583s
+Bytes In      [total, mean]                     20092, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.64%
+Status Codes  [code:count]                      0:36  200:10046  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         10142, 60.01, 59.79
+Duration      [total, attack, wait]             2m49s, 2m49s, 21.261ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 53.992ms, 21.188ms, 74.324ms, 182.88ms, 1.121s, 3.583s
+Bytes In      [total, mean]                     20212, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.65%
+Status Codes  [code:count]                      0:36  200:10106  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         10202, 60.01, 59.79
+Duration      [total, attack, wait]             2m50s, 2m50s, 20.982ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 53.8ms, 21.188ms, 73.55ms, 182.248ms, 1.118s, 3.583s
+Bytes In      [total, mean]                     20332, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.65%
+Status Codes  [code:count]                      0:36  200:10166  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         10261, 60.01, 59.79
+Duration      [total, attack, wait]             2m51s, 2m51s, 24.756ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 53.62ms, 21.188ms, 72.788ms, 181.626ms, 1.114s, 3.583s
+Bytes In      [total, mean]                     20450, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.65%
+Status Codes  [code:count]                      0:36  200:10225  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         10321, 60.01, 59.79
+Duration      [total, attack, wait]             2m52s, 2m52s, 25.397ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 53.435ms, 21.187ms, 72.014ms, 180.993ms, 1.11s, 3.583s
+Bytes In      [total, mean]                     20570, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.65%
+Status Codes  [code:count]                      0:36  200:10285  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         10382, 60.01, 59.79
+Duration      [total, attack, wait]             2m53s, 2m53s, 21.066ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 53.247ms, 21.187ms, 71.226ms, 180.35ms, 1.107s, 3.583s
+Bytes In      [total, mean]                     20692, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.65%
+Status Codes  [code:count]                      0:36  200:10346  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         10442, 60.01, 59.79
+Duration      [total, attack, wait]             2m54s, 2m54s, 21.098ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 53.067ms, 21.187ms, 70.452ms, 179.717ms, 1.103s, 3.583s
+Bytes In      [total, mean]                     20812, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.66%
+Status Codes  [code:count]                      0:36  200:10406  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         10502, 60.01, 59.79
+Duration      [total, attack, wait]             2m55s, 2m55s, 21.207ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 52.891ms, 21.187ms, 69.677ms, 179.085ms, 1.099s, 3.583s
+Bytes In      [total, mean]                     20932, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.66%
+Status Codes  [code:count]                      0:36  200:10466  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         10562, 60.01, 59.79
+Duration      [total, attack, wait]             2m56s, 2m56s, 21.082ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 52.714ms, 21.187ms, 68.903ms, 178.452ms, 1.095s, 3.583s
+Bytes In      [total, mean]                     21052, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.66%
+Status Codes  [code:count]                      0:36  200:10526  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         10622, 60.01, 59.79
+Duration      [total, attack, wait]             2m57s, 2m57s, 24.239ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 52.539ms, 21.187ms, 68.154ms, 177.82ms, 1.092s, 3.583s
+Bytes In      [total, mean]                     21172, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.66%
+Status Codes  [code:count]                      0:36  200:10586  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         10682, 60.01, 59.80
+Duration      [total, attack, wait]             2m58s, 2m58s, 21.061ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 52.365ms, 21.186ms, 67.451ms, 177.187ms, 1.088s, 3.583s
+Bytes In      [total, mean]                     21292, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.66%
+Status Codes  [code:count]                      0:36  200:10646  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         10742, 60.01, 59.80
+Duration      [total, attack, wait]             2m59s, 2m59s, 21.246ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 52.198ms, 21.186ms, 66.747ms, 176.554ms, 1.084s, 3.583s
+Bytes In      [total, mean]                     21412, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.66%
+Status Codes  [code:count]                      0:36  200:10706  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
+Requests      [total, rate, throughput]         10800, 60.01, 59.80
+Duration      [total, attack, wait]             3m0s, 3m0s, 21.094ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  447.696µs, 52.035ms, 21.186ms, 66.067ms, 175.943ms, 1.081s, 3.583s
+Bytes In      [total, mean]                     21528, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.67%
+Status Codes  [code:count]                      0:36  200:10764  
+Error Set:
+Get "http://10.106.13.94/?burn=20": dial tcp 0.0.0.0:0->10.106.13.94:80: connect: connection refused
