@@ -1,0 +1,1738 @@
+Requests      [total, rate, throughput]         61, 60.99, 58.58
+Duration      [total, attack, wait]             1.041s, 1s, 40.993ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.971ms, 51.268ms, 38.059ms, 108.32ms, 126.895ms, 140.32ms, 140.422ms
+Bytes In      [total, mean]                     122, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:61  
+Error Set:
+Requests      [total, rate, throughput]         119, 59.45, 58.30
+Duration      [total, attack, wait]             2.041s, 2.002s, 39.407ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.933ms, 46.594ms, 37.987ms, 95.333ms, 108.819ms, 139.783ms, 140.422ms
+Bytes In      [total, mean]                     238, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:119  
+Error Set:
+Requests      [total, rate, throughput]         179, 60.34, 58.57
+Duration      [total, attack, wait]             3.056s, 2.967s, 89.798ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.933ms, 45.543ms, 39.617ms, 89.783ms, 105.913ms, 135.931ms, 140.422ms
+Bytes In      [total, mean]                     358, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:179  
+Error Set:
+Requests      [total, rate, throughput]         232, 57.77, 57.19
+Duration      [total, attack, wait]             4.056s, 4.016s, 40.258ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.933ms, 61.683ms, 41.079ms, 135.744ms, 193.299ms, 242.659ms, 256.169ms
+Bytes In      [total, mean]                     464, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:232  
+Error Set:
+Requests      [total, rate, throughput]         291, 59.60, 57.55
+Duration      [total, attack, wait]             5.056s, 4.883s, 173.685ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.933ms, 96.594ms, 47.43ms, 204.137ms, 214.13ms, 1.093s, 1.227s
+Bytes In      [total, mean]                     582, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:291  
+Error Set:
+Requests      [total, rate, throughput]         347, 58.32, 57.12
+Duration      [total, attack, wait]             6.075s, 5.95s, 124.832ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.933ms, 102.942ms, 58.811ms, 208.794ms, 222.698ms, 1.075s, 1.227s
+Bytes In      [total, mean]                     694, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:347  
+Error Set:
+Requests      [total, rate, throughput]         403, 57.44, 57.23
+Duration      [total, attack, wait]             7.042s, 7.016s, 25.854ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.933ms, 126.117ms, 60.551ms, 212.259ms, 241.542ms, 1.257s, 2.429s
+Bytes In      [total, mean]                     806, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:403  
+Error Set:
+Requests      [total, rate, throughput]         461, 57.39, 57.15
+Duration      [total, attack, wait]             8.066s, 8.033s, 32.955ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.933ms, 152.627ms, 64.289ms, 220.567ms, 241.695ms, 2.203s, 2.508s
+Bytes In      [total, mean]                     922, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:461  
+Error Set:
+Requests      [total, rate, throughput]         518, 57.24, 57.11
+Duration      [total, attack, wait]             9.071s, 9.049s, 21.154ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.933ms, 176.528ms, 66.808ms, 224.24ms, 891.986ms, 2.426s, 3.278s
+Bytes In      [total, mean]                     1036, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:518  
+Error Set:
+Requests      [total, rate, throughput]         561, 56.57, 55.79
+Duration      [total, attack, wait]             10.056s, 9.917s, 139.787ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.933ms, 188.868ms, 72.704ms, 230.57ms, 1.143s, 2.428s, 3.278s
+Bytes In      [total, mean]                     1122, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:561  
+Error Set:
+Requests      [total, rate, throughput]         621, 56.88, 56.24
+Duration      [total, attack, wait]             11.041s, 10.917s, 124.355ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.933ms, 227.538ms, 81.093ms, 241.585ms, 1.25s, 2.502s, 3.874s
+Bytes In      [total, mean]                     1242, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:621  
+Error Set:
+Requests      [total, rate, throughput]         679, 56.50, 56.40
+Duration      [total, attack, wait]             12.038s, 12.017s, 21.129ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.933ms, 250.478ms, 83.228ms, 256.653ms, 1.279s, 2.577s, 3.874s
+Bytes In      [total, mean]                     1358, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:679  
+Error Set:
+Requests      [total, rate, throughput]         737, 56.69, 56.51
+Duration      [total, attack, wait]             13.041s, 13s, 41.278ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.933ms, 281.971ms, 87.204ms, 820.45ms, 1.508s, 2.866s, 3.874s
+Bytes In      [total, mean]                     1474, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:737  
+Error Set:
+Requests      [total, rate, throughput]         796, 57.06, 56.69
+Duration      [total, attack, wait]             14.041s, 13.95s, 91.07ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.933ms, 321.614ms, 88.61ms, 1.227s, 2.09s, 3.478s, 5.005s
+Bytes In      [total, mean]                     1592, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:796  
+Error Set:
+Requests      [total, rate, throughput]         854, 57.00, 56.78
+Duration      [total, attack, wait]             15.041s, 14.983s, 58.22ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.933ms, 346.669ms, 93.519ms, 1.251s, 2.253s, 3.513s, 5.005s
+Bytes In      [total, mean]                     1708, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:854  
+Error Set:
+Requests      [total, rate, throughput]         898, 56.48, 56.01
+Duration      [total, attack, wait]             16.034s, 15.9s, 134.066ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.933ms, 359.377ms, 95.248ms, 1.256s, 2.272s, 3.643s, 5.574s
+Bytes In      [total, mean]                     1796, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:898  
+Error Set:
+Requests      [total, rate, throughput]         964, 57.32, 56.58
+Duration      [total, attack, wait]             17.038s, 16.817s, 221.135ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.933ms, 397.572ms, 116.396ms, 1.3s, 2.296s, 3.879s, 5.574s
+Bytes In      [total, mean]                     1928, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:964  
+Error Set:
+Requests      [total, rate, throughput]         1025, 57.58, 56.81
+Duration      [total, attack, wait]             18.041s, 17.8s, 241.076ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.933ms, 434.771ms, 131.099ms, 1.448s, 2.371s, 3.976s, 6.675s
+Bytes In      [total, mean]                     2050, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1025  
+Error Set:
+Requests      [total, rate, throughput]         1085, 57.51, 56.98
+Duration      [total, attack, wait]             19.041s, 18.867s, 174.659ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.933ms, 450.549ms, 140.404ms, 1.478s, 2.403s, 3.987s, 6.675s
+Bytes In      [total, mean]                     2170, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1085  
+Error Set:
+Requests      [total, rate, throughput]         1133, 57.27, 56.53
+Duration      [total, attack, wait]             20.041s, 19.783s, 258.652ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.933ms, 456.204ms, 146.72ms, 1.492s, 2.412s, 3.973s, 6.675s
+Bytes In      [total, mean]                     2266, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1133  
+Error Set:
+Requests      [total, rate, throughput]         1191, 56.72, 56.60
+Duration      [total, attack, wait]             21.041s, 20.999s, 41.609ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  20.933ms, 462.856ms, 157.347ms, 1.539s, 2.398s, 3.957s, 6.675s
+Bytes In      [total, mean]                     2382, 2.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1191  
+Error Set:
+Requests      [total, rate, throughput]         1257, 57.14, 56.38
+Duration      [total, attack, wait]             22.03s, 22s, 30.215ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 485.081ms, 152.964ms, 1.592s, 2.442s, 4.097s, 14.508s
+Bytes In      [total, mean]                     2484, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.81%
+Status Codes  [code:count]                      0:15  200:1242  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Requests      [total, rate, throughput]         1323, 57.52, 56.79
+Duration      [total, attack, wait]             23.031s, 23s, 30.628ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 501.496ms, 147.255ms, 1.73s, 2.498s, 4.419s, 14.508s
+Bytes In      [total, mean]                     2616, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.87%
+Status Codes  [code:count]                      0:15  200:1308  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Requests      [total, rate, throughput]         1400, 58.29, 57.62
+Duration      [total, attack, wait]             24.038s, 24.017s, 20.996ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 531.773ms, 143.247ms, 1.905s, 2.681s, 4.727s, 14.508s
+Bytes In      [total, mean]                     2770, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.93%
+Status Codes  [code:count]                      0:15  200:1385  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Requests      [total, rate, throughput]         1461, 58.40, 57.75
+Duration      [total, attack, wait]             25.038s, 25.016s, 21.205ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 533.8ms, 139.405ms, 1.941s, 2.748s, 4.768s, 14.508s
+Bytes In      [total, mean]                     2892, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.97%
+Status Codes  [code:count]                      0:15  200:1446  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Requests      [total, rate, throughput]         1535, 59.00, 58.38
+Duration      [total, attack, wait]             26.038s, 26.016s, 21.223ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 555.047ms, 135.572ms, 2.025s, 2.897s, 5.146s, 14.508s
+Bytes In      [total, mean]                     3040, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.02%
+Status Codes  [code:count]                      0:15  200:1520  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Requests      [total, rate, throughput]         1595, 59.04, 58.44
+Duration      [total, attack, wait]             27.037s, 27.016s, 21.19ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 543.284ms, 124.856ms, 1.971s, 2.849s, 5.19s, 14.508s
+Bytes In      [total, mean]                     3160, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.06%
+Status Codes  [code:count]                      0:15  200:1580  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Requests      [total, rate, throughput]         1638, 58.50, 57.90
+Duration      [total, attack, wait]             28.033s, 27.999s, 33.33ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 529.66ms, 114.219ms, 1.899s, 2.797s, 5.143s, 14.508s
+Bytes In      [total, mean]                     3246, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.08%
+Status Codes  [code:count]                      0:15  200:1623  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Requests      [total, rate, throughput]         1682, 57.97, 57.41
+Duration      [total, attack, wait]             29.038s, 29.016s, 21.077ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 516.49ms, 103.505ms, 1.822s, 2.747s, 5.095s, 14.508s
+Bytes In      [total, mean]                     3334, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.11%
+Status Codes  [code:count]                      0:15  200:1667  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Requests      [total, rate, throughput]         1728, 57.57, 57.03
+Duration      [total, attack, wait]             30.037s, 30.016s, 21.064ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 503.362ms, 94.492ms, 1.741s, 2.695s, 5.045s, 14.508s
+Bytes In      [total, mean]                     3426, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.13%
+Status Codes  [code:count]                      0:15  200:1713  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Requests      [total, rate, throughput]         1774, 57.23, 56.68
+Duration      [total, attack, wait]             31.033s, 31s, 32.751ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 490.964ms, 87.941ms, 1.661s, 2.642s, 4.994s, 14.508s
+Bytes In      [total, mean]                     3518, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.15%
+Status Codes  [code:count]                      0:15  200:1759  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Requests      [total, rate, throughput]         1819, 56.84, 56.33
+Duration      [total, attack, wait]             32.025s, 32s, 24.563ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 479.39ms, 80.192ms, 1.613s, 2.593s, 4.945s, 14.508s
+Bytes In      [total, mean]                     3608, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.18%
+Status Codes  [code:count]                      0:15  200:1804  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Requests      [total, rate, throughput]         1883, 57.06, 56.55
+Duration      [total, attack, wait]             33.03s, 33s, 30.195ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 508.72ms, 77.599ms, 1.715s, 2.792s, 5.586s, 15.348s
+Bytes In      [total, mean]                     3736, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.20%
+Status Codes  [code:count]                      0:15  200:1868  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Requests      [total, rate, throughput]         1950, 57.32, 56.84
+Duration      [total, attack, wait]             34.042s, 34.017s, 24.715ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 523.788ms, 75.95ms, 1.829s, 2.951s, 5.654s, 15.348s
+Bytes In      [total, mean]                     3870, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.23%
+Status Codes  [code:count]                      0:15  200:1935  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Requests      [total, rate, throughput]         2016, 57.60, 57.13
+Duration      [total, attack, wait]             35.025s, 34.999s, 25.193ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 537.593ms, 72.102ms, 1.951s, 3.038s, 5.978s, 15.348s
+Bytes In      [total, mean]                     4002, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.26%
+Status Codes  [code:count]                      0:15  200:2001  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Requests      [total, rate, throughput]         2093, 58.11, 57.66
+Duration      [total, attack, wait]             36.037s, 36.016s, 21.071ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 567.118ms, 69.172ms, 2.039s, 3.221s, 6.486s, 19.791s
+Bytes In      [total, mean]                     4156, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.28%
+Status Codes  [code:count]                      0:15  200:2078  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Requests      [total, rate, throughput]         2167, 58.52, 58.08
+Duration      [total, attack, wait]             37.054s, 37.033s, 21.286ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 618.471ms, 67.009ms, 2.166s, 3.582s, 7.468s, 19.877s
+Bytes In      [total, mean]                     4304, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.31%
+Status Codes  [code:count]                      0:15  200:2152  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Requests      [total, rate, throughput]         2249, 59.16, 58.13
+Duration      [total, attack, wait]             38.038s, 38.017s, 21.28ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 633.092ms, 63.429ms, 2.208s, 3.68s, 7.581s, 19.877s
+Bytes In      [total, mean]                     4422, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.31%
+Status Codes  [code:count]                      0:38  200:2211  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Requests      [total, rate, throughput]         2318, 59.46, 58.29
+Duration      [total, attack, wait]             39.03s, 38.983s, 47.334ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 650.009ms, 58.267ms, 2.195s, 3.751s, 7.78s, 19.877s
+Bytes In      [total, mean]                     4550, 1.96
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.14%
+Status Codes  [code:count]                      0:43  200:2275  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Requests      [total, rate, throughput]         2389, 59.70, 58.59
+Duration      [total, attack, wait]             40.038s, 40.017s, 21.187ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 670.834ms, 53.473ms, 2.205s, 3.889s, 8.71s, 19.877s
+Bytes In      [total, mean]                     4692, 1.96
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.20%
+Status Codes  [code:count]                      0:43  200:2346  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Requests      [total, rate, throughput]         2453, 59.80, 58.73
+Duration      [total, attack, wait]             41.038s, 41.017s, 21.076ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 679.683ms, 49.035ms, 2.193s, 3.91s, 9.599s, 29.595s
+Bytes In      [total, mean]                     4820, 1.96
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.25%
+Status Codes  [code:count]                      0:43  200:2410  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Requests      [total, rate, throughput]         2514, 59.83, 58.76
+Duration      [total, attack, wait]             42.038s, 42.017s, 21.264ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 675.651ms, 45.55ms, 2.166s, 3.861s, 9.703s, 30s
+Bytes In      [total, mean]                     4940, 1.96
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.25%
+Status Codes  [code:count]                      0:44  200:2470  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         2575, 59.86, 58.79
+Duration      [total, attack, wait]             43.038s, 43.016s, 21.158ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 671.808ms, 41.494ms, 2.116s, 3.816s, 9.809s, 30.001s
+Bytes In      [total, mean]                     5060, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.25%
+Status Codes  [code:count]                      0:45  200:2530  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         2638, 59.93, 58.88
+Duration      [total, attack, wait]             44.038s, 44.017s, 21.123ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 688.615ms, 39.5ms, 2.082s, 3.813s, 10.469s, 30.001s
+Bytes In      [total, mean]                     5186, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.29%
+Status Codes  [code:count]                      0:45  200:2593  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         2698, 59.96, 58.92
+Duration      [total, attack, wait]             45.025s, 45s, 24.865ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 681.001ms, 36.57ms, 2.031s, 3.769s, 10.577s, 30.001s
+Bytes In      [total, mean]                     5306, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.33%
+Status Codes  [code:count]                      0:45  200:2653  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         2760, 59.98, 58.97
+Duration      [total, attack, wait]             46.038s, 46.017s, 21.277ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 676.214ms, 33.763ms, 1.977s, 3.723s, 10.68s, 30.001s
+Bytes In      [total, mean]                     5430, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.37%
+Status Codes  [code:count]                      0:45  200:2715  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         2820, 59.98, 59.00
+Duration      [total, attack, wait]             47.037s, 47.016s, 21.157ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 662.294ms, 31.451ms, 1.899s, 3.657s, 10.518s, 30.001s
+Bytes In      [total, mean]                     5550, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.40%
+Status Codes  [code:count]                      0:45  200:2775  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         2882, 60.02, 59.06
+Duration      [total, attack, wait]             48.037s, 48.016s, 20.978ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 668.051ms, 29.42ms, 1.833s, 3.633s, 10.856s, 30.001s
+Bytes In      [total, mean]                     5674, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.44%
+Status Codes  [code:count]                      0:45  200:2837  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         2942, 60.02, 59.08
+Duration      [total, attack, wait]             49.038s, 49.017s, 21.117ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 654.88ms, 27.034ms, 1.738s, 3.568s, 10.729s, 30.001s
+Bytes In      [total, mean]                     5794, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.47%
+Status Codes  [code:count]                      0:45  200:2897  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3002, 60.02, 59.09
+Duration      [total, attack, wait]             50.038s, 50.017s, 21.218ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 642.256ms, 26.004ms, 1.646s, 3.505s, 10.567s, 30.001s
+Bytes In      [total, mean]                     5914, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.50%
+Status Codes  [code:count]                      0:45  200:2957  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3061, 60.02, 59.11
+Duration      [total, attack, wait]             51.024s, 51s, 24.221ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 630.298ms, 25.165ms, 1.597s, 3.444s, 10.407s, 30.001s
+Bytes In      [total, mean]                     6032, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.53%
+Status Codes  [code:count]                      0:45  200:3016  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3122, 60.02, 59.13
+Duration      [total, attack, wait]             52.038s, 52.017s, 21.066ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 618.43ms, 24.954ms, 1.547s, 3.38s, 10.242s, 30.001s
+Bytes In      [total, mean]                     6154, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.56%
+Status Codes  [code:count]                      0:45  200:3077  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3182, 60.02, 59.15
+Duration      [total, attack, wait]             53.038s, 53.017s, 21.063ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 607.19ms, 24.764ms, 1.498s, 3.321s, 10.079s, 30.001s
+Bytes In      [total, mean]                     6274, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.59%
+Status Codes  [code:count]                      0:45  200:3137  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3242, 60.02, 59.16
+Duration      [total, attack, wait]             54.038s, 54.017s, 21.153ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 596.349ms, 24.625ms, 1.452s, 3.264s, 9.917s, 30.001s
+Bytes In      [total, mean]                     6394, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.61%
+Status Codes  [code:count]                      0:45  200:3197  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3302, 60.02, 59.18
+Duration      [total, attack, wait]             55.038s, 55.017s, 21.25ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 585.937ms, 24.523ms, 1.408s, 3.206s, 9.755s, 30.001s
+Bytes In      [total, mean]                     6514, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.64%
+Status Codes  [code:count]                      0:45  200:3257  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3362, 60.02, 59.19
+Duration      [total, attack, wait]             56.038s, 56.017s, 21.233ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 575.87ms, 24.36ms, 1.363s, 3.149s, 9.592s, 30.001s
+Bytes In      [total, mean]                     6634, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.66%
+Status Codes  [code:count]                      0:45  200:3317  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3422, 60.02, 59.20
+Duration      [total, attack, wait]             57.042s, 57.017s, 24.893ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 566.156ms, 24.061ms, 1.319s, 3.092s, 9.43s, 30.001s
+Bytes In      [total, mean]                     6754, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.68%
+Status Codes  [code:count]                      0:45  200:3377  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3482, 60.02, 59.22
+Duration      [total, attack, wait]             58.037s, 58.016s, 21.106ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 556.788ms, 23.609ms, 1.29s, 3.031s, 9.268s, 30.001s
+Bytes In      [total, mean]                     6874, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.71%
+Status Codes  [code:count]                      0:45  200:3437  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3542, 60.02, 59.23
+Duration      [total, attack, wait]             59.038s, 59.017s, 21.183ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 547.72ms, 22.877ms, 1.279s, 2.976s, 9.105s, 30.001s
+Bytes In      [total, mean]                     6994, 1.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.73%
+Status Codes  [code:count]                      0:45  200:3497  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3602, 60.02, 59.25
+Duration      [total, attack, wait]             1m0s, 1m0s, 21.157ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 538.981ms, 21.788ms, 1.268s, 2.918s, 8.943s, 30.001s
+Bytes In      [total, mean]                     7114, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.75%
+Status Codes  [code:count]                      0:45  200:3557  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3662, 60.02, 59.26
+Duration      [total, attack, wait]             1m1s, 1m1s, 21.131ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 530.544ms, 21.545ms, 1.257s, 2.86s, 8.796s, 30.001s
+Bytes In      [total, mean]                     7234, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.77%
+Status Codes  [code:count]                      0:45  200:3617  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3722, 60.02, 59.27
+Duration      [total, attack, wait]             1m2s, 1m2s, 21.18ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 522.355ms, 21.431ms, 1.247s, 2.802s, 8.714s, 30.001s
+Bytes In      [total, mean]                     7354, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.79%
+Status Codes  [code:count]                      0:45  200:3677  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3781, 60.02, 59.28
+Duration      [total, attack, wait]             1m3s, 1m3s, 25.118ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 514.543ms, 21.325ms, 1.239s, 2.745s, 8.634s, 30.001s
+Bytes In      [total, mean]                     7472, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.81%
+Status Codes  [code:count]                      0:45  200:3736  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3842, 60.02, 59.29
+Duration      [total, attack, wait]             1m4s, 1m4s, 24.2ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 506.726ms, 21.314ms, 1.233s, 2.686s, 8.55s, 30.001s
+Bytes In      [total, mean]                     7594, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.83%
+Status Codes  [code:count]                      0:45  200:3797  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3902, 60.02, 59.30
+Duration      [total, attack, wait]             1m5s, 1m5s, 20.923ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 499.263ms, 21.299ms, 1.227s, 2.642s, 8.468s, 30.001s
+Bytes In      [total, mean]                     7714, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.85%
+Status Codes  [code:count]                      0:45  200:3857  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3962, 60.02, 59.31
+Duration      [total, attack, wait]             1m6s, 1m6s, 20.922ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 492.044ms, 21.29ms, 1.22s, 2.6s, 8.386s, 30.001s
+Bytes In      [total, mean]                     7834, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.86%
+Status Codes  [code:count]                      0:45  200:3917  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4022, 60.01, 59.32
+Duration      [total, attack, wait]             1m7s, 1m7s, 21.165ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 485.049ms, 21.286ms, 1.197s, 2.558s, 8.304s, 30.001s
+Bytes In      [total, mean]                     7954, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.88%
+Status Codes  [code:count]                      0:45  200:3977  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4082, 60.01, 59.33
+Duration      [total, attack, wait]             1m8s, 1m8s, 21.05ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 478.235ms, 21.278ms, 1.166s, 2.516s, 8.222s, 30.001s
+Bytes In      [total, mean]                     8074, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.90%
+Status Codes  [code:count]                      0:45  200:4037  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4142, 60.01, 59.34
+Duration      [total, attack, wait]             1m9s, 1m9s, 21.286ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 471.622ms, 21.273ms, 1.135s, 2.474s, 8.14s, 30.001s
+Bytes In      [total, mean]                     8194, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.91%
+Status Codes  [code:count]                      0:45  200:4097  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4202, 60.01, 59.35
+Duration      [total, attack, wait]             1m10s, 1m10s, 24.631ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 465.212ms, 21.266ms, 1.105s, 2.432s, 8.058s, 30.001s
+Bytes In      [total, mean]                     8314, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.93%
+Status Codes  [code:count]                      0:45  200:4157  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4262, 60.01, 59.36
+Duration      [total, attack, wait]             1m11s, 1m11s, 21.059ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 458.973ms, 21.262ms, 1.025s, 2.395s, 7.976s, 30.001s
+Bytes In      [total, mean]                     8434, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.94%
+Status Codes  [code:count]                      0:45  200:4217  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4322, 60.01, 59.37
+Duration      [total, attack, wait]             1m12s, 1m12s, 21.282ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 452.899ms, 21.259ms, 903.387ms, 2.378s, 7.894s, 30.001s
+Bytes In      [total, mean]                     8554, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.96%
+Status Codes  [code:count]                      0:45  200:4277  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4382, 60.01, 59.38
+Duration      [total, attack, wait]             1m13s, 1m13s, 21.195ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 447ms, 21.253ms, 781.467ms, 2.361s, 7.812s, 30.001s
+Bytes In      [total, mean]                     8674, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.97%
+Status Codes  [code:count]                      0:45  200:4337  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4442, 60.01, 59.39
+Duration      [total, attack, wait]             1m14s, 1m14s, 21.011ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 441.269ms, 21.251ms, 659.548ms, 2.345s, 7.772s, 30.001s
+Bytes In      [total, mean]                     8794, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.99%
+Status Codes  [code:count]                      0:45  200:4397  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4502, 60.01, 59.40
+Duration      [total, attack, wait]             1m15s, 1m15s, 21.09ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 435.685ms, 21.245ms, 539.486ms, 2.328s, 7.751s, 30.001s
+Bytes In      [total, mean]                     8914, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.00%
+Status Codes  [code:count]                      0:45  200:4457  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4562, 60.01, 59.40
+Duration      [total, attack, wait]             1m16s, 1m16s, 21.023ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 430.236ms, 21.242ms, 473.273ms, 2.311s, 7.73s, 30.001s
+Bytes In      [total, mean]                     9034, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.01%
+Status Codes  [code:count]                      0:45  200:4517  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4622, 60.01, 59.41
+Duration      [total, attack, wait]             1m17s, 1m17s, 21.221ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 424.939ms, 21.242ms, 407.06ms, 2.294s, 7.708s, 30.001s
+Bytes In      [total, mean]                     9154, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.03%
+Status Codes  [code:count]                      0:45  200:4577  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4682, 60.01, 59.42
+Duration      [total, attack, wait]             1m18s, 1m18s, 21.249ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 419.766ms, 21.239ms, 340.847ms, 2.277s, 7.687s, 30.001s
+Bytes In      [total, mean]                     9274, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.04%
+Status Codes  [code:count]                      0:45  200:4637  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4741, 60.01, 59.42
+Duration      [total, attack, wait]             1m19s, 1m19s, 24.791ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 414.82ms, 21.237ms, 275.738ms, 2.264s, 7.665s, 30.001s
+Bytes In      [total, mean]                     9392, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.05%
+Status Codes  [code:count]                      0:45  200:4696  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4801, 60.01, 59.43
+Duration      [total, attack, wait]             1m20s, 1m20s, 24.948ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 409.907ms, 21.235ms, 252.196ms, 2.25s, 7.675s, 30.001s
+Bytes In      [total, mean]                     9512, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.06%
+Status Codes  [code:count]                      0:45  200:4756  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4862, 60.01, 59.44
+Duration      [total, attack, wait]             1m21s, 1m21s, 21.053ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 405.042ms, 21.232ms, 248.364ms, 2.237s, 7.622s, 30.001s
+Bytes In      [total, mean]                     9634, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.07%
+Status Codes  [code:count]                      0:45  200:4817  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4922, 60.01, 59.45
+Duration      [total, attack, wait]             1m22s, 1m22s, 21.158ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 400.368ms, 21.23ms, 244.596ms, 2.224s, 7.598s, 30.001s
+Bytes In      [total, mean]                     9754, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.09%
+Status Codes  [code:count]                      0:45  200:4877  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4982, 60.01, 59.45
+Duration      [total, attack, wait]             1m23s, 1m23s, 21.117ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 395.808ms, 21.227ms, 240.827ms, 2.211s, 7.574s, 30.001s
+Bytes In      [total, mean]                     9874, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.10%
+Status Codes  [code:count]                      0:45  200:4937  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5042, 60.01, 59.46
+Duration      [total, attack, wait]             1m24s, 1m24s, 21.038ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 391.362ms, 21.226ms, 237.682ms, 2.198s, 7.55s, 30.001s
+Bytes In      [total, mean]                     9994, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.11%
+Status Codes  [code:count]                      0:45  200:4997  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5101, 60.01, 59.46
+Duration      [total, attack, wait]             1m25s, 1m25s, 31.008ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 387.086ms, 21.225ms, 236.139ms, 2.185s, 7.526s, 30.001s
+Bytes In      [total, mean]                     10112, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.12%
+Status Codes  [code:count]                      0:45  200:5056  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5162, 60.01, 59.47
+Duration      [total, attack, wait]             1m26s, 1m26s, 21.053ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 382.767ms, 21.224ms, 234.544ms, 2.171s, 7.501s, 30.001s
+Bytes In      [total, mean]                     10234, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.13%
+Status Codes  [code:count]                      0:45  200:5117  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5222, 60.01, 59.48
+Duration      [total, attack, wait]             1m27s, 1m27s, 21.148ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 378.626ms, 21.222ms, 232.975ms, 2.152s, 7.477s, 30.001s
+Bytes In      [total, mean]                     10354, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.14%
+Status Codes  [code:count]                      0:45  200:5177  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5282, 60.01, 59.49
+Duration      [total, attack, wait]             1m28s, 1m28s, 21.248ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 374.577ms, 21.222ms, 231.406ms, 2.121s, 7.453s, 30.001s
+Bytes In      [total, mean]                     10474, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.15%
+Status Codes  [code:count]                      0:45  200:5237  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5342, 60.01, 59.49
+Duration      [total, attack, wait]             1m29s, 1m29s, 21.284ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 370.609ms, 21.22ms, 229.874ms, 2.078s, 7.429s, 30.001s
+Bytes In      [total, mean]                     10594, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.16%
+Status Codes  [code:count]                      0:45  200:5297  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5402, 60.01, 59.50
+Duration      [total, attack, wait]             1m30s, 1m30s, 21.089ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 366.75ms, 21.219ms, 228.349ms, 2.042s, 7.405s, 30.001s
+Bytes In      [total, mean]                     10714, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.17%
+Status Codes  [code:count]                      0:45  200:5357  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5462, 60.01, 59.50
+Duration      [total, attack, wait]             1m31s, 1m31s, 21.233ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 362.971ms, 21.218ms, 226.823ms, 2.006s, 7.381s, 30.001s
+Bytes In      [total, mean]                     10834, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.18%
+Status Codes  [code:count]                      0:45  200:5417  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5522, 60.01, 59.51
+Duration      [total, attack, wait]             1m32s, 1m32s, 21.318ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 359.279ms, 21.217ms, 225.297ms, 1.971s, 7.357s, 30.001s
+Bytes In      [total, mean]                     10954, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.19%
+Status Codes  [code:count]                      0:45  200:5477  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5581, 60.01, 59.51
+Duration      [total, attack, wait]             1m33s, 1m33s, 27.487ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 355.717ms, 21.216ms, 223.796ms, 1.935s, 7.334s, 30.001s
+Bytes In      [total, mean]                     11072, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.19%
+Status Codes  [code:count]                      0:45  200:5536  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5642, 60.01, 59.52
+Duration      [total, attack, wait]             1m34s, 1m34s, 21.128ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 352.107ms, 21.215ms, 222.557ms, 1.899s, 7.309s, 30.001s
+Bytes In      [total, mean]                     11194, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.20%
+Status Codes  [code:count]                      0:45  200:5597  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5702, 60.01, 59.52
+Duration      [total, attack, wait]             1m35s, 1m35s, 21.172ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 348.63ms, 21.213ms, 221.476ms, 1.863s, 7.285s, 30.001s
+Bytes In      [total, mean]                     11314, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.21%
+Status Codes  [code:count]                      0:45  200:5657  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5762, 60.01, 59.53
+Duration      [total, attack, wait]             1m36s, 1m36s, 25.066ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 345.228ms, 21.212ms, 220.396ms, 1.827s, 7.261s, 30.001s
+Bytes In      [total, mean]                     11434, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.22%
+Status Codes  [code:count]                      0:45  200:5717  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5821, 60.01, 59.53
+Duration      [total, attack, wait]             1m37s, 1m37s, 24.68ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 341.947ms, 21.211ms, 219.334ms, 1.793s, 7.237s, 30.001s
+Bytes In      [total, mean]                     11552, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.23%
+Status Codes  [code:count]                      0:45  200:5776  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5882, 60.01, 59.54
+Duration      [total, attack, wait]             1m38s, 1m38s, 20.931ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 338.628ms, 21.21ms, 218.235ms, 1.761s, 7.213s, 30.001s
+Bytes In      [total, mean]                     11674, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.23%
+Status Codes  [code:count]                      0:45  200:5837  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5942, 60.01, 59.54
+Duration      [total, attack, wait]             1m39s, 1m39s, 21.156ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 335.428ms, 21.209ms, 217.156ms, 1.729s, 7.189s, 30.001s
+Bytes In      [total, mean]                     11794, 1.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.24%
+Status Codes  [code:count]                      0:45  200:5897  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6002, 60.01, 59.55
+Duration      [total, attack, wait]             1m40s, 1m40s, 20.999ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 332.297ms, 21.208ms, 216.119ms, 1.697s, 7.165s, 30.001s
+Bytes In      [total, mean]                     11914, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.25%
+Status Codes  [code:count]                      0:45  200:5957  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6062, 60.01, 59.55
+Duration      [total, attack, wait]             1m41s, 1m41s, 21.192ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 329.231ms, 21.207ms, 215.082ms, 1.665s, 7.133s, 30.001s
+Bytes In      [total, mean]                     12034, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.26%
+Status Codes  [code:count]                      0:45  200:6017  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6122, 60.01, 59.56
+Duration      [total, attack, wait]             1m42s, 1m42s, 21.162ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 326.225ms, 21.207ms, 214.045ms, 1.633s, 7.072s, 30.001s
+Bytes In      [total, mean]                     12154, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.26%
+Status Codes  [code:count]                      0:45  200:6077  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6181, 60.01, 59.56
+Duration      [total, attack, wait]             1m43s, 1m43s, 25.615ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 323.326ms, 21.206ms, 213.025ms, 1.601s, 7.012s, 30.001s
+Bytes In      [total, mean]                     12272, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.27%
+Status Codes  [code:count]                      0:45  200:6136  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6242, 60.01, 59.56
+Duration      [total, attack, wait]             1m44s, 1m44s, 21.134ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 320.381ms, 21.206ms, 211.97ms, 1.569s, 6.95s, 30.001s
+Bytes In      [total, mean]                     12394, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.28%
+Status Codes  [code:count]                      0:45  200:6197  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6301, 60.01, 59.57
+Duration      [total, attack, wait]             1m45s, 1m45s, 24.77ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 317.584ms, 21.205ms, 211.358ms, 1.537s, 6.889s, 30.001s
+Bytes In      [total, mean]                     12512, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.29%
+Status Codes  [code:count]                      0:45  200:6256  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6362, 60.01, 59.57
+Duration      [total, attack, wait]             1m46s, 1m46s, 21.152ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 314.748ms, 21.204ms, 210.792ms, 1.505s, 6.827s, 30.001s
+Bytes In      [total, mean]                     12634, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.29%
+Status Codes  [code:count]                      0:45  200:6317  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6422, 60.01, 59.58
+Duration      [total, attack, wait]             1m47s, 1m47s, 21.161ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 312.008ms, 21.203ms, 210.235ms, 1.475s, 6.766s, 30.001s
+Bytes In      [total, mean]                     12754, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.30%
+Status Codes  [code:count]                      0:45  200:6377  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6482, 60.01, 59.58
+Duration      [total, attack, wait]             1m48s, 1m48s, 21.085ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 309.327ms, 21.202ms, 209.679ms, 1.453s, 6.704s, 30.001s
+Bytes In      [total, mean]                     12874, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.31%
+Status Codes  [code:count]                      0:45  200:6437  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6542, 60.01, 59.58
+Duration      [total, attack, wait]             1m49s, 1m49s, 24.724ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 306.69ms, 21.201ms, 209.122ms, 1.431s, 6.643s, 30.001s
+Bytes In      [total, mean]                     12994, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.31%
+Status Codes  [code:count]                      0:45  200:6497  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6602, 60.01, 59.59
+Duration      [total, attack, wait]             1m50s, 1m50s, 21.041ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 304.097ms, 21.2ms, 208.839ms, 1.408s, 6.582s, 30.001s
+Bytes In      [total, mean]                     13114, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.32%
+Status Codes  [code:count]                      0:45  200:6557  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6662, 60.01, 59.59
+Duration      [total, attack, wait]             1m51s, 1m51s, 21.039ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 301.558ms, 21.199ms, 208.675ms, 1.386s, 6.521s, 30.001s
+Bytes In      [total, mean]                     13234, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.32%
+Status Codes  [code:count]                      0:45  200:6617  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6722, 60.01, 59.60
+Duration      [total, attack, wait]             1m52s, 1m52s, 21.102ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 299.059ms, 21.198ms, 208.892ms, 1.364s, 6.459s, 30.001s
+Bytes In      [total, mean]                     13354, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.33%
+Status Codes  [code:count]                      0:45  200:6677  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6782, 60.01, 59.60
+Duration      [total, attack, wait]             1m53s, 1m53s, 21.065ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 296.609ms, 21.198ms, 208.631ms, 1.342s, 6.398s, 30.001s
+Bytes In      [total, mean]                     13474, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.34%
+Status Codes  [code:count]                      0:45  200:6737  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6842, 60.01, 59.60
+Duration      [total, attack, wait]             1m54s, 1m54s, 21.095ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 294.196ms, 21.197ms, 208.37ms, 1.32s, 6.433s, 30.001s
+Bytes In      [total, mean]                     13594, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.34%
+Status Codes  [code:count]                      0:45  200:6797  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6902, 60.01, 59.61
+Duration      [total, attack, wait]             1m55s, 1m55s, 21.2ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 291.826ms, 21.197ms, 208.109ms, 1.298s, 6.401s, 30.001s
+Bytes In      [total, mean]                     13714, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.35%
+Status Codes  [code:count]                      0:45  200:6857  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6962, 60.01, 59.61
+Duration      [total, attack, wait]             1m56s, 1m56s, 21.036ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 289.497ms, 21.196ms, 207.824ms, 1.29s, 6.37s, 30.001s
+Bytes In      [total, mean]                     13834, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.35%
+Status Codes  [code:count]                      0:45  200:6917  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7022, 60.01, 59.61
+Duration      [total, attack, wait]             1m57s, 1m57s, 24.937ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 287.205ms, 21.195ms, 206.832ms, 1.285s, 6.338s, 30.001s
+Bytes In      [total, mean]                     13954, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.36%
+Status Codes  [code:count]                      0:45  200:6977  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7081, 60.01, 59.61
+Duration      [total, attack, wait]             1m58s, 1m58s, 24.777ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 284.991ms, 21.195ms, 205.856ms, 1.279s, 6.308s, 30.001s
+Bytes In      [total, mean]                     14072, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.36%
+Status Codes  [code:count]                      0:45  200:7036  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7141, 60.01, 59.62
+Duration      [total, attack, wait]             1m59s, 1m59s, 24.502ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 282.782ms, 21.194ms, 204.864ms, 1.274s, 6.276s, 30.001s
+Bytes In      [total, mean]                     14192, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.37%
+Status Codes  [code:count]                      0:45  200:7096  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7202, 60.01, 59.62
+Duration      [total, attack, wait]             2m0s, 2m0s, 21.086ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 280.571ms, 21.194ms, 203.855ms, 1.268s, 6.244s, 30.001s
+Bytes In      [total, mean]                     14314, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.38%
+Status Codes  [code:count]                      0:45  200:7157  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7262, 60.01, 59.63
+Duration      [total, attack, wait]             2m1s, 2m1s, 21.162ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 278.432ms, 21.193ms, 202.863ms, 1.263s, 6.213s, 30.001s
+Bytes In      [total, mean]                     14434, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.38%
+Status Codes  [code:count]                      0:45  200:7217  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7322, 60.01, 59.63
+Duration      [total, attack, wait]             2m2s, 2m2s, 21.098ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 276.33ms, 21.193ms, 201.871ms, 1.258s, 6.182s, 30.001s
+Bytes In      [total, mean]                     14554, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.39%
+Status Codes  [code:count]                      0:45  200:7277  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7382, 60.01, 59.63
+Duration      [total, attack, wait]             2m3s, 2m3s, 21.141ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 274.257ms, 21.192ms, 200.607ms, 1.252s, 6.15s, 30.001s
+Bytes In      [total, mean]                     14674, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.39%
+Status Codes  [code:count]                      0:45  200:7337  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7442, 60.01, 59.63
+Duration      [total, attack, wait]             2m4s, 2m4s, 21.154ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 272.228ms, 21.191ms, 199.301ms, 1.247s, 6.119s, 30.001s
+Bytes In      [total, mean]                     14794, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.40%
+Status Codes  [code:count]                      0:45  200:7397  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7502, 60.01, 59.64
+Duration      [total, attack, wait]             2m5s, 2m5s, 21.162ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 270.226ms, 21.191ms, 197.995ms, 1.24s, 6.088s, 30.001s
+Bytes In      [total, mean]                     14914, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.40%
+Status Codes  [code:count]                      0:45  200:7457  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7561, 60.00, 59.63
+Duration      [total, attack, wait]             2m6s, 2m6s, 21.128ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 268.288ms, 21.19ms, 196.711ms, 1.233s, 6.057s, 30.001s
+Bytes In      [total, mean]                     15032, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.40%
+Status Codes  [code:count]                      0:45  200:7516  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7622, 60.01, 59.64
+Duration      [total, attack, wait]             2m7s, 2m7s, 21.163ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 266.316ms, 21.189ms, 195.383ms, 1.224s, 6.025s, 30.001s
+Bytes In      [total, mean]                     15154, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.41%
+Status Codes  [code:count]                      0:45  200:7577  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7682, 60.01, 59.65
+Duration      [total, attack, wait]             2m8s, 2m8s, 21.075ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 264.409ms, 21.189ms, 194.077ms, 1.216s, 5.994s, 30.001s
+Bytes In      [total, mean]                     15274, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.41%
+Status Codes  [code:count]                      0:45  200:7637  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7742, 60.01, 59.65
+Duration      [total, attack, wait]             2m9s, 2m9s, 21.238ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 262.525ms, 21.189ms, 192.69ms, 1.208s, 5.962s, 30.001s
+Bytes In      [total, mean]                     15394, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.42%
+Status Codes  [code:count]                      0:45  200:7697  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7802, 60.01, 59.65
+Duration      [total, attack, wait]             2m10s, 2m10s, 21.019ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 260.685ms, 21.188ms, 191.279ms, 1.2s, 5.931s, 30.001s
+Bytes In      [total, mean]                     15514, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.42%
+Status Codes  [code:count]                      0:45  200:7757  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7862, 60.01, 59.65
+Duration      [total, attack, wait]             2m11s, 2m11s, 21.059ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 258.859ms, 21.188ms, 189.869ms, 1.192s, 5.899s, 30.001s
+Bytes In      [total, mean]                     15634, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.43%
+Status Codes  [code:count]                      0:45  200:7817  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7922, 60.01, 59.66
+Duration      [total, attack, wait]             2m12s, 2m12s, 21.042ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 257.062ms, 21.187ms, 188.362ms, 1.184s, 5.868s, 30.001s
+Bytes In      [total, mean]                     15754, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.43%
+Status Codes  [code:count]                      0:45  200:7877  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7982, 60.01, 59.66
+Duration      [total, attack, wait]             2m13s, 2m13s, 21.185ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 255.292ms, 21.187ms, 186.978ms, 1.176s, 5.837s, 30.001s
+Bytes In      [total, mean]                     15874, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.44%
+Status Codes  [code:count]                      0:45  200:7937  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8042, 60.01, 59.66
+Duration      [total, attack, wait]             2m14s, 2m14s, 24.458ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 253.547ms, 21.186ms, 185.593ms, 1.168s, 5.805s, 30.001s
+Bytes In      [total, mean]                     15994, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.44%
+Status Codes  [code:count]                      0:45  200:7997  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8102, 60.01, 59.66
+Duration      [total, attack, wait]             2m15s, 2m15s, 21.169ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 251.834ms, 21.186ms, 184.209ms, 1.16s, 5.774s, 30.001s
+Bytes In      [total, mean]                     16114, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.44%
+Status Codes  [code:count]                      0:45  200:8057  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8162, 60.01, 59.67
+Duration      [total, attack, wait]             2m16s, 2m16s, 24.564ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 250.141ms, 21.185ms, 182.738ms, 1.152s, 5.743s, 30.001s
+Bytes In      [total, mean]                     16234, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.45%
+Status Codes  [code:count]                      0:45  200:8117  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8222, 60.01, 59.67
+Duration      [total, attack, wait]             2m17s, 2m17s, 21.005ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 248.473ms, 21.185ms, 181.049ms, 1.144s, 5.711s, 30.001s
+Bytes In      [total, mean]                     16354, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.45%
+Status Codes  [code:count]                      0:45  200:8177  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8282, 60.01, 59.67
+Duration      [total, attack, wait]             2m18s, 2m18s, 21.1ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 246.827ms, 21.185ms, 179.359ms, 1.135s, 5.68s, 30.001s
+Bytes In      [total, mean]                     16474, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.46%
+Status Codes  [code:count]                      0:45  200:8237  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8342, 60.01, 59.67
+Duration      [total, attack, wait]             2m19s, 2m19s, 21.114ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 245.215ms, 21.184ms, 177.669ms, 1.09s, 5.649s, 30.001s
+Bytes In      [total, mean]                     16594, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.46%
+Status Codes  [code:count]                      0:45  200:8297  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8402, 60.01, 59.68
+Duration      [total, attack, wait]             2m20s, 2m20s, 21.147ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 243.616ms, 21.184ms, 175.979ms, 1.046s, 5.617s, 30.001s
+Bytes In      [total, mean]                     16714, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.46%
+Status Codes  [code:count]                      0:45  200:8357  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8462, 60.01, 59.68
+Duration      [total, attack, wait]             2m21s, 2m21s, 21.214ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 242.045ms, 21.184ms, 174.289ms, 1.001s, 5.586s, 30.001s
+Bytes In      [total, mean]                     16834, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.47%
+Status Codes  [code:count]                      0:45  200:8417  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8522, 60.01, 59.68
+Duration      [total, attack, wait]             2m22s, 2m22s, 21.072ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 240.493ms, 21.183ms, 172.599ms, 956.098ms, 5.555s, 30.001s
+Bytes In      [total, mean]                     16954, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.47%
+Status Codes  [code:count]                      0:45  200:8477  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8582, 60.01, 59.68
+Duration      [total, attack, wait]             2m23s, 2m23s, 21.133ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 238.963ms, 21.182ms, 170.868ms, 911.373ms, 5.523s, 30.001s
+Bytes In      [total, mean]                     17074, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.48%
+Status Codes  [code:count]                      0:45  200:8537  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8642, 60.01, 59.69
+Duration      [total, attack, wait]             2m24s, 2m24s, 21.123ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 237.454ms, 21.182ms, 167.927ms, 866.648ms, 5.492s, 30.001s
+Bytes In      [total, mean]                     17194, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.48%
+Status Codes  [code:count]                      0:45  200:8597  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8702, 60.01, 59.69
+Duration      [total, attack, wait]             2m25s, 2m25s, 21.102ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 235.966ms, 21.181ms, 164.987ms, 821.923ms, 5.461s, 30.001s
+Bytes In      [total, mean]                     17314, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.48%
+Status Codes  [code:count]                      0:45  200:8657  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8762, 60.01, 59.69
+Duration      [total, attack, wait]             2m26s, 2m26s, 21.165ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 234.501ms, 21.181ms, 162.046ms, 777.197ms, 5.433s, 30.001s
+Bytes In      [total, mean]                     17434, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.49%
+Status Codes  [code:count]                      0:45  200:8717  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8822, 60.01, 59.69
+Duration      [total, attack, wait]             2m27s, 2m27s, 25.335ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 233.065ms, 21.181ms, 159.105ms, 732.472ms, 5.406s, 30.001s
+Bytes In      [total, mean]                     17554, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.49%
+Status Codes  [code:count]                      0:45  200:8777  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8882, 60.01, 59.69
+Duration      [total, attack, wait]             2m28s, 2m28s, 21.103ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 231.636ms, 21.18ms, 156.164ms, 687.747ms, 5.379s, 30.001s
+Bytes In      [total, mean]                     17674, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.49%
+Status Codes  [code:count]                      0:45  200:8837  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8942, 60.01, 59.70
+Duration      [total, attack, wait]             2m29s, 2m29s, 21.089ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 230.224ms, 21.18ms, 153.224ms, 643.022ms, 5.351s, 30.001s
+Bytes In      [total, mean]                     17794, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.50%
+Status Codes  [code:count]                      0:45  200:8897  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9002, 60.01, 59.70
+Duration      [total, attack, wait]             2m30s, 2m30s, 20.994ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 228.84ms, 21.179ms, 150.283ms, 598.296ms, 5.324s, 30.001s
+Bytes In      [total, mean]                     17914, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.50%
+Status Codes  [code:count]                      0:45  200:8957  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9062, 60.01, 59.70
+Duration      [total, attack, wait]             2m31s, 2m31s, 20.955ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 227.471ms, 21.179ms, 147.794ms, 553.571ms, 5.297s, 30.001s
+Bytes In      [total, mean]                     18034, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.50%
+Status Codes  [code:count]                      0:45  200:9017  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9122, 60.00, 59.70
+Duration      [total, attack, wait]             2m32s, 2m32s, 21.361ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 226.116ms, 21.179ms, 145.329ms, 508.846ms, 5.269s, 30.001s
+Bytes In      [total, mean]                     18154, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.51%
+Status Codes  [code:count]                      0:45  200:9077  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9182, 60.01, 59.70
+Duration      [total, attack, wait]             2m33s, 2m33s, 21.181ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 224.788ms, 21.178ms, 142.864ms, 464.121ms, 5.242s, 30.001s
+Bytes In      [total, mean]                     18274, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.51%
+Status Codes  [code:count]                      0:45  200:9137  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9242, 60.01, 59.71
+Duration      [total, attack, wait]             2m34s, 2m34s, 21.08ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 223.468ms, 21.178ms, 141.118ms, 419.395ms, 5.215s, 30.001s
+Bytes In      [total, mean]                     18394, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.51%
+Status Codes  [code:count]                      0:45  200:9197  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9302, 60.01, 59.71
+Duration      [total, attack, wait]             2m35s, 2m35s, 21.225ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 222.165ms, 21.178ms, 138.534ms, 375.89ms, 5.187s, 30.001s
+Bytes In      [total, mean]                     18514, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.52%
+Status Codes  [code:count]                      0:45  200:9257  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9362, 60.01, 59.71
+Duration      [total, attack, wait]             2m36s, 2m36s, 21.066ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 220.879ms, 21.178ms, 135.949ms, 367.779ms, 5.16s, 30.001s
+Bytes In      [total, mean]                     18634, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.52%
+Status Codes  [code:count]                      0:45  200:9317  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9422, 60.01, 59.71
+Duration      [total, attack, wait]             2m37s, 2m37s, 21.104ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 219.611ms, 21.177ms, 133.365ms, 359.667ms, 5.133s, 30.001s
+Bytes In      [total, mean]                     18754, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.52%
+Status Codes  [code:count]                      0:45  200:9377  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9482, 60.01, 59.71
+Duration      [total, attack, wait]             2m38s, 2m38s, 21.182ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 218.359ms, 21.177ms, 130.781ms, 351.555ms, 5.106s, 30.001s
+Bytes In      [total, mean]                     18874, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.53%
+Status Codes  [code:count]                      0:45  200:9437  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9542, 60.01, 59.72
+Duration      [total, attack, wait]             2m39s, 2m39s, 21.093ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 217.126ms, 21.177ms, 128.197ms, 343.443ms, 5.078s, 30.001s
+Bytes In      [total, mean]                     18994, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.53%
+Status Codes  [code:count]                      0:45  200:9497  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9602, 60.01, 59.72
+Duration      [total, attack, wait]             2m40s, 2m40s, 21.17ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 215.903ms, 21.177ms, 125.613ms, 335.331ms, 5.051s, 30.001s
+Bytes In      [total, mean]                     19114, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.53%
+Status Codes  [code:count]                      0:45  200:9557  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9662, 60.01, 59.72
+Duration      [total, attack, wait]             2m41s, 2m41s, 21.053ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 214.695ms, 21.176ms, 122.975ms, 327.22ms, 5.024s, 30.001s
+Bytes In      [total, mean]                     19234, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.53%
+Status Codes  [code:count]                      0:45  200:9617  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9721, 60.00, 59.71
+Duration      [total, attack, wait]             2m42s, 2m42s, 21.137ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 213.527ms, 21.176ms, 120.378ms, 319.243ms, 4.997s, 30.001s
+Bytes In      [total, mean]                     19352, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.54%
+Status Codes  [code:count]                      0:45  200:9676  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9782, 60.01, 59.72
+Duration      [total, attack, wait]             2m43s, 2m43s, 21.166ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 212.334ms, 21.176ms, 117.693ms, 310.996ms, 4.969s, 30.001s
+Bytes In      [total, mean]                     19474, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.54%
+Status Codes  [code:count]                      0:45  200:9737  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9842, 60.01, 59.72
+Duration      [total, attack, wait]             2m44s, 2m44s, 20.84ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 211.17ms, 21.176ms, 115.052ms, 302.884ms, 4.942s, 30.001s
+Bytes In      [total, mean]                     19594, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.54%
+Status Codes  [code:count]                      0:45  200:9797  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9902, 60.01, 59.73
+Duration      [total, attack, wait]             2m45s, 2m45s, 21.008ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 210.022ms, 21.175ms, 112.411ms, 294.772ms, 4.914s, 30.001s
+Bytes In      [total, mean]                     19714, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.55%
+Status Codes  [code:count]                      0:45  200:9857  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9962, 60.01, 59.73
+Duration      [total, attack, wait]             2m46s, 2m46s, 21.135ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 208.888ms, 21.175ms, 109.77ms, 286.661ms, 4.887s, 30.001s
+Bytes In      [total, mean]                     19834, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.55%
+Status Codes  [code:count]                      0:45  200:9917  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10022, 60.01, 59.73
+Duration      [total, attack, wait]             2m47s, 2m47s, 21.175ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 207.766ms, 21.175ms, 107.129ms, 278.549ms, 4.86s, 30.001s
+Bytes In      [total, mean]                     19954, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.55%
+Status Codes  [code:count]                      0:45  200:9977  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10082, 60.01, 59.73
+Duration      [total, attack, wait]             2m48s, 2m48s, 21.057ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 206.672ms, 21.175ms, 104.489ms, 270.437ms, 4.832s, 30.001s
+Bytes In      [total, mean]                     20074, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.55%
+Status Codes  [code:count]                      0:45  200:10037  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10142, 60.01, 59.73
+Duration      [total, attack, wait]             2m49s, 2m49s, 21.268ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 205.581ms, 21.175ms, 101.848ms, 262.325ms, 4.805s, 30.001s
+Bytes In      [total, mean]                     20194, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.56%
+Status Codes  [code:count]                      0:45  200:10097  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10202, 60.01, 59.73
+Duration      [total, attack, wait]             2m50s, 2m50s, 21.314ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 204.499ms, 21.175ms, 99.378ms, 254.213ms, 4.778s, 30.001s
+Bytes In      [total, mean]                     20314, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.56%
+Status Codes  [code:count]                      0:45  200:10157  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10262, 60.01, 59.74
+Duration      [total, attack, wait]             2m51s, 2m51s, 21.161ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 203.429ms, 21.175ms, 97.591ms, 246.101ms, 4.751s, 30.001s
+Bytes In      [total, mean]                     20434, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.56%
+Status Codes  [code:count]                      0:45  200:10217  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10322, 60.01, 59.74
+Duration      [total, attack, wait]             2m52s, 2m52s, 21.047ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 202.378ms, 21.174ms, 95.805ms, 237.99ms, 4.723s, 30.001s
+Bytes In      [total, mean]                     20554, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.56%
+Status Codes  [code:count]                      0:45  200:10277  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10382, 60.01, 59.74
+Duration      [total, attack, wait]             2m53s, 2m53s, 21.047ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 201.332ms, 21.174ms, 94.019ms, 233.83ms, 4.696s, 30.001s
+Bytes In      [total, mean]                     20674, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.57%
+Status Codes  [code:count]                      0:45  200:10337  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10442, 60.01, 59.74
+Duration      [total, attack, wait]             2m54s, 2m54s, 21.056ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 200.301ms, 21.174ms, 92.233ms, 233.13ms, 4.669s, 30.001s
+Bytes In      [total, mean]                     20794, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.57%
+Status Codes  [code:count]                      0:45  200:10397  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10501, 60.01, 59.74
+Duration      [total, attack, wait]             2m55s, 2m55s, 24.259ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 199.308ms, 21.175ms, 90.476ms, 232.44ms, 4.642s, 30.001s
+Bytes In      [total, mean]                     20912, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.57%
+Status Codes  [code:count]                      0:45  200:10456  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10561, 60.01, 59.74
+Duration      [total, attack, wait]             2m56s, 2m56s, 34.319ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 198.308ms, 21.175ms, 89.164ms, 231.74ms, 4.614s, 30.001s
+Bytes In      [total, mean]                     21032, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.57%
+Status Codes  [code:count]                      0:45  200:10516  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10622, 60.01, 59.74
+Duration      [total, attack, wait]             2m57s, 2m57s, 21.029ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 197.291ms, 21.174ms, 87.685ms, 231.027ms, 4.591s, 30.001s
+Bytes In      [total, mean]                     21154, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.58%
+Status Codes  [code:count]                      0:45  200:10577  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10682, 60.01, 59.75
+Duration      [total, attack, wait]             2m58s, 2m58s, 21.133ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 196.308ms, 21.174ms, 86.229ms, 230.326ms, 4.575s, 30.001s
+Bytes In      [total, mean]                     21274, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.58%
+Status Codes  [code:count]                      0:45  200:10637  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10742, 60.01, 59.75
+Duration      [total, attack, wait]             2m59s, 2m59s, 21.251ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 195.351ms, 21.174ms, 84.954ms, 229.626ms, 4.559s, 30.001s
+Bytes In      [total, mean]                     21394, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.58%
+Status Codes  [code:count]                      0:45  200:10697  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10800, 60.01, 59.75
+Duration      [total, attack, wait]             3m0s, 3m0s, 21.107ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  402.836µs, 194.419ms, 21.174ms, 83.587ms, 228.948ms, 4.544s, 30.001s
+Bytes In      [total, mean]                     21510, 1.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.58%
+Status Codes  [code:count]                      0:45  200:10755  
+Error Set:
+Get "http://10.107.86.63/?burn=20": dial tcp 0.0.0.0:0->10.107.86.63:80: connect: connection refused
+Get "http://10.107.86.63/?burn=20": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
