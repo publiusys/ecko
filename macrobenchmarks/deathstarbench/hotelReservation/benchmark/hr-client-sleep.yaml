@@ -1,0 +1,79 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hr-client
+  labels:
+    death-star-project: hotel-res
+    app: hr-client
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      death-star-project: hotel-res
+      app: hr-client
+  template:
+    metadata:
+      labels: 
+        death-star-project: hotel-res
+        app: hr-client
+      name: hr-client
+#      annotations:
+#        sidecar.istio.io/inject: "true"
+    spec:
+      nodeName: node0.k8s-eval.mustherd-pg0.wisc.cloudlab.us 
+      volumes:
+        - name: log-share
+          emptyDir: {}
+        - name: ecko
+          hostPath: 
+            path: /users/awadyn/ecko/
+            type: Directory
+      containers:
+      - name: hr-client
+        image: ubuntu:24.04
+        imagePullPolicy: Always
+        volumeMounts:
+          - mountPath: /sharelogs/
+            name: log-share
+          - mountPath: /ecko
+            name: ecko
+        command:
+          - '/bin/bash'
+          - '-c'
+          - >
+            export DEBIAN_FRONTEND=noninteractive;
+            apt-get -y update;
+            apt-get -y install build-essential python3 git wget unzip libreadline-dev python3-statsmodels python3-kubernetes;
+            git clone https://github.com/publiusys/ecko.git;
+            wget https://www.lua.org/ftp/lua-5.1.5.tar.gz;
+            tar -xf lua-5.1.5.tar.gz;
+            cd lua-5.1.5;
+            make linux;
+            make all test;
+            make install;
+            cd /;
+            wget https://luarocks.org/releases/luarocks-2.4.2.tar.gz;
+            tar -xf luarocks-2.4.2.tar.gz;
+            cd luarocks-2.4.2;
+            ./configure && make && make install;
+            export PATH=$PATH:/usr/local/bin;
+            luarocks-5.1 install luasocket;
+            ln -s /ecko/macrobenchmarks/deathstarbench/hotelReservation/benchmark/cilantro_awsecr/driver/ /driver;
+            ln -s /ecko/macrobenchmarks/deathstarbench/hotelReservation/benchmark/cilantro_awsecr/wrk2/ /wrk2;
+            cd /;
+            chmod 777 /wrk2/wrk;
+            cd /usr/lib/x86_64-linux-gnu/;
+            ln libcrypto.so.3 libcrypto.so.1.1;
+            cd /;
+            wget https://github.com/openssl/openssl/releases/download/OpenSSL_1_1_0l/openssl-1.1.0l.tar.gz;
+            tar -xf openssl-1.1.0l.tar.gz;
+            cd openssl-1.1.0l;
+            ./config;
+            make -j;
+            make install;
+            export LD_LIBRARY_PATH=/openssl-1.1.0l;
+            cd /;
+            sleep 36000
+
+
