@@ -1,0 +1,81 @@
+#==============================================================================
+# Author(s): Han Dong (hdong@hamilton.edu)
+#            Seth Moore (slmoore@hamilton.edu)
+# Brief: Modified flaw1.yaml from the ECKO experiments using KEDA CPU Scaler
+#==============================================================================
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: flaw1
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app
+  namespace: flaw1
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: app
+  template:
+    metadata:
+      labels:
+        app: app
+    spec:
+      containers:
+      - name: app
+        image: python:3.11-slim
+        command:
+        - python3
+        - -c
+        - |
+          from http.server import HTTPServer, BaseHTTPRequestHandler
+          import time, math
+          class H(BaseHTTPRequestHandler):
+              def do_GET(self):
+                  d = float(self.path.split("burn=")[-1]) / 1000 if "burn=" in self.path else 0.02
+                  t = time.time() + d
+                  x = 0.0
+                  while time.time() < t:
+                      x += math.sqrt(x + 1)
+                  self.send_response(200)
+                  self.end_headers()
+                  self.wfile.write(b"ok")
+              def log_message(self, *a): pass
+          HTTPServer(("0.0.0.0", 8080), H).serve_forever()
+        ports:
+        - containerPort: 8080
+        resources:
+          requests:
+            cpu: "200m"
+          limits:
+            cpu: "500m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: app
+  namespace: flaw1
+spec:
+  selector:
+    app: app
+  ports:
+  - port: 80
+    targetPort: 8080
+---
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: flaw1-scaledobject
+  namespace: flaw1
+spec:
+  minReplicaCount: 2
+  maxReplicaCount: 10
+  scaleTargetRef:
+    name: app
+  triggers:
+  - type: cpu
+    metricType: Utilization
+    metadata:
+      value: "50"
