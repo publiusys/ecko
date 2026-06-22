@@ -1,0 +1,65 @@
+#==============================================================================
+# Author(s): Seth Moore (slmoore@hamilton.edu)
+# Brief: Express JS web server deployment utilizing KEDA CPU Scaler for
+#        horizontal scaling
+#==============================================================================
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: webserver
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webserver-deployment
+  namespace: webserver
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: webserver
+  template:
+    metadata:
+      labels:
+        app: webserver
+    spec:
+      containers:
+      - name: webserver
+        image: webserver
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8080
+        resources:
+          requests:
+            cpu: "200m"
+          limits:
+            cpu: "500m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: webserver-service
+  namespace: webserver
+spec:
+  selector:
+    app: webserver
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: 8080
+---
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: webserver-scaledobject
+  namespace: webserver
+spec:
+  minReplicaCount: 2
+  maxReplicaCount: 10
+  scaleTargetRef:
+    name: webserver-deployment
+  triggers:
+  - type: cpu
+    metricType: Utilization
+    metadata:
+      value: "50"

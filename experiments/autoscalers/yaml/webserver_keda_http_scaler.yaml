@@ -1,0 +1,78 @@
+#==============================================================================
+# Author(s): Seth Moore (slmoore@hamilton.edu)
+# Brief: Express JS web server deployment utilizing KEDA HTTP add on for
+#        horizontal scaling
+#==============================================================================
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: webserver
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webserver-deployment
+  namespace: webserver
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: webserver
+  template:
+    metadata:
+      labels:
+        app: webserver
+    spec:
+      containers:
+      - name: webserver
+        image: webserver
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: webserver-service
+  namespace: webserver
+spec:
+  selector:
+    app: webserver
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: 8080
+---
+apiVersion: http.keda.sh/v1beta1
+kind: InterceptorRoute
+metadata:
+  name: webserver-interceptorroute
+  namespace: webserver
+spec:
+  target:
+    service: webserver
+    port: 80
+  rules:
+    - hosts:
+        - sample-app.example.com
+  scalingMetric:
+    requestRate:
+      targetValue: 5
+      window: 1m
+      granularity: 1s
+---
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: webserver-scaledobject
+  namespace: webserver
+spec:
+  scaleTargetRef:
+    name: webserver-deployment
+  minReplicaCount: 2
+  maxReplicaCount: 10
+  triggers:
+    - type: external-push
+      metadata:
+        scalerAddress: keda-add-ons-http-external-scaler.keda:9090
+        interceptorRoute: webserver-interceptorroute

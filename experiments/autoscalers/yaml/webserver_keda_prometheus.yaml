@@ -1,0 +1,75 @@
+#==============================================================================
+# Author(s): Seth Moore (slmoore@hamilton.edu)
+# Brief: Express JS web server deployment utilzing KEDA prometheus scaler for
+#        horizontal scaling
+#==============================================================================
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: webserver
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webserver-deployment
+  namespace: webserver
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: webserver
+  template:
+    metadata:
+      labels:
+        app: webserver
+    spec:
+      containers:
+      - name: webserver
+        image: webserver
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: webserver-service
+  namespace: webserver
+spec:
+  selector:
+    app: webserver
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: webserver-serviceheadless
+  namespace: webserver
+spec:
+  clusterIP: None
+  selector:
+    app: webserver
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: 8080
+---
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: webserver-scaledobject
+  namespace: webserver
+spec:
+  minReplicaCount: 2
+  maxReplicaCount: 10
+  scaleTargetRef:
+    name: webserver-deployment
+  triggers:
+  - type: prometheus
+    metadata:
+      serverAddress: http://prometheus-service.prometheus.svc.cluster.local:80
+      threshold: '5'
+      query: sum(rate(http_requests_total{job="webserver"}[1m]))

@@ -1,0 +1,7 @@
+*.yml linguist-detectable
+*.yml linguist-language=YAML
+
+*.yaml linguist-detectable
+*.yaml linguist-language=YAML
+
+*.ipynb linguist-vendored
