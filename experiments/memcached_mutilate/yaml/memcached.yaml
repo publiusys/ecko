@@ -27,10 +27,10 @@ spec:
         image: memcached:1.6-alpine
         resources:
           requests:
-            cpu: "20"
+            cpu: "19.9"
             memory: "64Gi"
           limits:
-            cpu: "20"
+            cpu: "19.9"
             memory: "64Gi"
         ports:
         - containerPort: 11211
