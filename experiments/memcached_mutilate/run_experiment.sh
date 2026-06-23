@@ -28,8 +28,7 @@ run_experiment() {
         mkdir -p exp/$update\_$qps/
 
         # start load generation for 1 mcd process
-        #taskset -c 0 mutilate --binary -s $server:$port --noload --agent={$agent1,$agent2} --threads=1 --keysize=fb_key --valuesize=fb_value --iadist=fb_ia --update=$update --qps=$qps --depth=128 --measure_connections=32 --time=30 >> exp/$update\_$qps/leader.log
-        taskset -c 0 mutilate --binary -s $server:$port --noload --agent={$agent1,$agent2} --threads=1 --keysize=fb_key --valuesize=fb_value --iadist=fb_ia --update=0.25 --depth=4 --measure_depth=1 --connections=16 --measure_connections=32 --measure_qps=2000 --qps=$qps --time=30 >> exp/$update\_$qps/leader.log
+        taskset -c 0 mutilate --binary -s $server:$port --noload --agent={$agent1,$agent2} --threads=1 --keysize=fb_key --valuesize=fb_value --iadist=fb_ia --update=0.25 --depth=128 --measure_connections=32 --qps=$qps --time=30 >> exp/$update\_$qps/leader.log
 
         scp -r $agent1:~/agent.log exp/$update\_$qps/agent1.log
         scp -r $agent2:~/agent.log exp/$update\_$qps/agent2.log
