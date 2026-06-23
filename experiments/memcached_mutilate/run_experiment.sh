@@ -13,7 +13,7 @@ run_experiment() {
         sudo kubectl apply -f yaml/memcached.yaml
         sudo kubectl wait --for=condition=Ready pod -l app=memcached -n memcached --timeout=120s
 
-        SERVER="http://$(sudo kubectl get svc memcached-service -n memcached -o jsonpath='{.spec.clusterIP}')"
+        SERVER="$(sudo kubectl get svc memcached-service -n memcached -o jsonpath='{.spec.clusterIP}')"
 
         echo "START LOAD GENERATION AGENTS"
         ssh $agent1 "mutilate --agentmode --threads=16 > agent.log 2>&1 < /dev/null &"
