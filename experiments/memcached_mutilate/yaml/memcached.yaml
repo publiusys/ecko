@@ -22,6 +22,8 @@ spec:
       labels:
         app: memcached
     spec:
+      hostNetwork: true
+      dnsPolicy: ClusterFirstWithHostNet
       containers:
       - name: memcached
         image: memcached:1.6-alpine
