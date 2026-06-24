@@ -22,8 +22,6 @@ spec:
       labels:
         app: memcached
     spec:
-      hostNetwork: true
-      dnsPolicy: ClusterFirstWithHostNet
       containers:
       - name: memcached
         image: memcached:1.6-alpine
@@ -52,9 +50,11 @@ metadata:
   name: memcached-service
   namespace: memcached
 spec:
+  type: NodePort
   selector:
     app: memcached
   ports:
   - protocol: TCP
     port: 11211
     targetPort: 11211
+    nodePort: 11211
