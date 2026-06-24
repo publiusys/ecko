@@ -38,7 +38,7 @@ run_experiment() {
         scp -r $AGENT2:~/agent.log exp/$UPDATE\_$QPS/agent2.log
         ssh $AGENT1 "sudo killall mutilate"
         ssh $AGENT2 "sudo killall mutilate"
-        ssh $server "sudo killall memcached"
+        ssh $SERVER "sudo killall memcached"
         #sudo kubectl delete -f yaml/memcached.yaml
 }
 
