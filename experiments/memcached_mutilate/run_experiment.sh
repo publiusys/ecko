@@ -3,7 +3,7 @@
 #            Seth Moore (slmoore@hamilton.edu)
 # Brief: 
 
-PORT=11211
+PORT=30000
 AGENT1=10.10.1.2
 AGENT2=10.10.1.3
 
@@ -13,7 +13,8 @@ run_experiment() {
         sudo kubectl apply -f yaml/memcached.yaml
         sudo kubectl wait --for=condition=Ready pod -l app=memcached -n memcached --timeout=120s
 
-        SERVER="$(sudo kubectl get svc memcached-service -n memcached -o jsonpath='{.spec.clusterIP}')"
+        #SERVER="$(sudo kubectl get svc memcached-service -n memcached -o jsonpath='{.spec.clusterIP}')"
+        SERVER=10.10.1.1
 
         echo "START LOAD GENERATION AGENTS"
         ssh $AGENT1 "mutilate --agentmode --threads=16 > agent.log 2>&1 < /dev/null &"
