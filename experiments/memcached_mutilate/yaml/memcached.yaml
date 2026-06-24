@@ -57,4 +57,3 @@ spec:
   - protocol: TCP
     port: 11211
     targetPort: 11211
-    nodePort: 11211
