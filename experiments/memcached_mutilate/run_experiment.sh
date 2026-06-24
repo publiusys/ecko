@@ -17,7 +17,7 @@ run_experiment() {
 
         echo "START LOAD GENERATION AGENTS"
         ssh $AGENT1 "mutilate --agentmode --threads=16 > agent.log 2>&1 < /dev/null &"
-        ssh $AGENT1 "mutilate --agentmode --threads=16 > agent.log 2>&1 < /dev/null &"
+        ssh $AGENT2 "mutilate --agentmode --threads=16 > agent.log 2>&1 < /dev/null &"
 
         echo "LOAD MEMCACHED DATABASE"
         taskset -c 0 mutilate -vv --binary -s $SERVER:$PORT --loadonly -K fb_key -V fb_value
